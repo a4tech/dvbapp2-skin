@@ -208,6 +208,10 @@
 			<convert type="ServiceInfo">SubservicesAvailable</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
+		<ePixmap pixmap="EGArmyMoodOpen/ico_line_off.png" position="765,148" size="20,20" zPosition="3" alphatest="blend" />
+		<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="EGArmyMoodOpen/ico_line_on.png" position="765,148" size="20,20" zPosition="4" alphatest="blend" >
+			<convert type="ConditionalShowHide">Blink</convert>
+		</widget>
 	</screen>
 	<!-- 7 EGAMI (extra) second Infobar  -->
 		<screen name="SecondInfoBar" flags="wfNoBorder" position="0,0" size="1280,720" title="Black Pole" backgroundColor="transparent"  >
@@ -282,6 +286,10 @@
 			<widget source="session.RecordState" render="Pixmap" pixmap="EGArmyMoodOpen/icons/icon_rec.png" position="817,655" zPosition="4" size="44,30" alphatest="on">
 				<convert type="ConditionalShowHide">Blink</convert>
 			</widget>
+			<ePixmap pixmap="EGArmyMoodOpen/ico_line_off.png" position="860,659" size="20,20" zPosition="3" alphatest="blend" />
+			<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="EGArmyMoodOpen/ico_line_on.png" position="860,659" size="20,20" zPosition="4" alphatest="blend" >
+				<convert type="ConditionalShowHide">Blink</convert>
+			</widget>			
 			<widget source="session.CurrentService" render="Pixmap" pixmap="EGArmyMoodOpen/icons/icon_dolby.png" position="571,655" zPosition="4" size="70,30" alphatest="on" >
 				<convert type="ServiceInfo">IsMultichannel</convert>
 				<convert type="ConditionalShowHide" />
