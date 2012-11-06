@@ -1349,13 +1349,13 @@
 		<widget source="session.CurrentService" render="Label" position="815,330" size="420,32" zPosition="2" font="Regular;28" halign="center" noWrap="1" transparent="1" foregroundColor="white" backgroundColor="background">
 		<convert type="ServiceName">Name</convert>
 		</widget>
-			<widget source="session.Event_Now" render="Label" position="850,380" size="350,100" zPosition="2" halign="center" font="Regular;24" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1" >
+		<!--<widget source="session.Event_Now" render="Label" position="850,370" size="350,100" zPosition="2" halign="center" font="Regular;24" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1" >
 			<convert type="EventName">Name</convert>
-					</widget>		
+		      </widget>-->
 		<widget source="session.Event_Now" render="Progress" pixmap="EGArmyMoodOpen/chan_p_bar.png" size="300,14" position="870,310" zPosition="1"  backgroundColor="darkgrey" transparent="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>		
-		<eLabel text="EGAMI v3.0" position="870,400" zPosition="2" size="350,46" font="RegularAA;38" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>
+		<eLabel text="EGAMI v3.0" position="875,400" zPosition="2" size="350,46" font="RegularAA;38" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>
 		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="skin_default/oealliance.png" alphatest="blend" transparent="1" />
 		<eLabel text="About" position="80,30" size="800,38" font="RegularAA;34" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>	
 		<eLabel text="EGAMI Image" position="78,110" size="600,32" font="Regular;26" halign="left" backgroundColor="transpBlack" transparent="1"/>	
