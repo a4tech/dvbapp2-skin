@@ -1347,7 +1347,8 @@
 		<widget source="session.Event_Now" render="Progress" pixmap="EGArmyMoodOpen/chan_p_bar.png" size="300,14" position="870,310" zPosition="1"  backgroundColor="darkgrey" transparent="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>		
-		<eLabel text="EGAMI v3.0" position="870,500" zPosition="2" size="350,46" font="RegularAA;38" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>	
+		<eLabel text="EGAMI v3.0" position="870,400" zPosition="2" size="350,46" font="RegularAA;38" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>
+		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="skin_default/oealliance.png" alphatest="blend" transparent="1" />
 		<eLabel text="About" position="80,30" size="800,38" font="RegularAA;34" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>	
 		<eLabel text="EGAMI Image" position="78,110" size="600,32" font="Regular;26" halign="left" backgroundColor="transpBlack" transparent="1"/>	
 		<widget name="AboutScrollLabel" render="Label" position="78,140"	size="650,438" font="Regular;24" halign="left" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/> 
