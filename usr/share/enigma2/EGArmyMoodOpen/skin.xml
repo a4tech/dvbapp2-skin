@@ -1030,12 +1030,16 @@
 		
 		
 	 <!--  80 VirtualKeyBoard  -->
-    <screen name="VirtualKeyBoard" position="80,150" size="560,390" zPosition="99" title="Virtual KeyBoard">
-        <ePixmap pixmap="EGArmyMoodOpen/vkey_text.png" position="9,35" zPosition="-4" size="542,52" alphatest="on" />
-        <widget name="header" position="10,10" size="500,20" font="Regular;20" transparent="1" noWrap="1" />
-        <widget name="text" position="12,35" size="536,44" font="Regular;38" transparent="1" noWrap="1" halign="right" />
-        <widget name="list" position="10,100" size="540,225" selectionDisabled="1" transparent="1" />
-	<widget name="help" position="10,350" size="550,25" font="Regular;20" transparent="1" noWrap="1" />
+    <screen name="VirtualKeyBoard" position="0,0" size="1280,720" zPosition="99" backgroundColor="transparent" flags="wfNoBorder" title="Virtual KeyBoard">
+		<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="EGArmyMoodOpen/frame_base-fs8.png"  /> 
+		<ePixmap pixmap="EGArmyMoodOpen/vkey_text.png" position="29,55" zPosition="-4" size="542,52" alphatest="on" />
+		<widget name="header" position="center,30" size="300,25" font="Regular;20" transparent="1" noWrap="1" />
+		<ePixmap pixmap="EGArmyMoodOpen/riq_ccc.png" position="center,85" zPosition="-1" size="696,82" alphatest="on" />
+		<widget name="text" position="center,95" size="536,44" backgroundColor="black" font="Regular;38" transparent="1" noWrap="1" halign="right" />
+		<widget name="list" position="center,center" size="540,225" selectionDisabled="1" transparent="1" />
+		<widget name="help" position="center,480" size="550,25" font="Regular;20" transparent="1" noWrap="1" />
+		<ePixmap position="center,630" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
+		<widget name="country" position="center,635" zPosition="2" size="750,40" font="Regular;24" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" />
     </screen>
 	<!-- 81 Volume -->
 	<screen name="Volume" position="60,130" zPosition="1" size="28,360" title="Volume"  flags="wfNoBorder" backgroundColor="transparent" >
@@ -3662,11 +3666,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	<!--  225 MyTubePlayerMainScreen ( 3+1 )-->
   <screen name="MyTubePlayerMainScreen" position="0,0" size="1280,720" title="MyTubePlayerMainScreen..." 	flags="wfNoBorder" >
 		<ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="EGArmyMoodOpen/frame_base-fs8.png"/>
-		<ePixmap position="1184,170" zPosition="2" size="26,420" pixmap="EGArmyMoodOpen/scroll.png" alphatest="blend" transparent="1" />
+		<ePixmap position="1184,170" zPosition="2" size="26,520" pixmap="EGArmyMoodOpen/scroll.png" alphatest="blend" transparent="1" />
 		<ePixmap pixmap="EGArmyMoodOpen/menu/mytube.png" position="60,120" zPosition="1" size="250,160" alphatest="blend" transparent="1" />
-	    <eLabel text="MyTubePlayerMainScreen... " position="80,30" zPosition="2" size="600,32" font="RegularAA;28" halign="left" transparent="1" foregroundColor="#58bcff" backgroundColor="#11362d" />  
+		<eLabel text="MyTubePlayerMainScreen... " position="80,30" zPosition="2" size="600,32" font="RegularAA;28" halign="left" transparent="1" foregroundColor="#58bcff" backgroundColor="#11362d" />  
 		<widget name="config" 	position="550,120" size="660,28" zPosition="3" scrollbarMode="showNever" transparent="1"/>
-		<widget source="feedlist" render="Listbox" position="550,170" size="660,400" zPosition="1" scrollbarMode="showOnDemand"  transparent="1">
+		<widget source="feedlist" render="Listbox" position="550,170" size="660,500" zPosition="1" scrollbarMode="showOnDemand"  transparent="1">
 			<convert type="TemplatedMultiContent">
 			{"templates":
 				{"default": (100,[
@@ -3687,21 +3691,19 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 			}
 			</convert>
 		</widget>
-		<ePixmap position="770,630" size="234,60" zPosition="4" pixmap="EGArmyMoodOpen/plugin_mytube.png" alphatest="on" transparent="1" />
-		<ePixmap position="746,32" zPosition="1" size="74,36" pixmap="EGArmyMoodOpen/buttons/key_help.png" transparent="1" alphatest="on" />
-		<ePixmap position="850,32" zPosition="1" size="74,36" pixmap="EGArmyMoodOpen/buttons/key_epg.png" transparent="1" alphatest="on" />
+		<!--<ePixmap position="770,630" size="234,60" zPosition="4" pixmap="EGArmyMoodOpen/plugin_mytube.png" alphatest="on" transparent="1" />-->
+		<ePixmap position="850,32" zPosition="1" size="74,36" pixmap="EGArmyMoodOpen/buttons/key_help.png" transparent="1" alphatest="on" />
 		<ePixmap position="954,32" zPosition="1" size="74,36" pixmap="EGArmyMoodOpen/buttons/key_menu1.png" transparent="1" alphatest="on" /> 
 		<eLabel text="Press CH+ to enter search TEXT" position="500,90" size="450,32" zPosition="2" font="Regular;24" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" />
 
-		<ePixmap position="80,630" 	size="250,40" 	alphatest="blend" zPosition="2" pixmap="EGArmyMoodOpen/buttons/button_grey_1.png" />
-		<widget name="ButtonBlue" position="80,630" size="250,40" 	alphatest="blend" zPosition="3" pixmap="EGArmyMoodOpen/buttons/button_blue_1.png" />
+		<ePixmap position="80,630" size="250,40"  alphatest="on" zPosition="1" pixmap="EGArmyMoodOpen/buttons/blue25.png" />
 		<ePixmap position="80,450" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
 		<ePixmap position="80,510" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
 		<ePixmap position="80,570" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
 		<widget name="key_red" position="80,450" zPosition="2" size="250,40" font="Regular;24" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" />
 		<widget name="key_green" position="80,510" zPosition="2" size="250,40" font="Regular;24" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" />
 		<widget name="key_yellow" position="80,570" zPosition="2" size="250,40" font="Regular;24" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" />
-		<eLabel text="Virtual Keyboard" position="80,632" size="250,40" zPosition="2" font="Regular;24" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" />
+		<widget name="key_blue" position="80,632" size="250,40" zPosition="2" font="Regular;24" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" />
 		<eLabel text=" " position="84,634" size="250,30" zPosition="2" font="Regular;24" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" />
 		<widget name="thumbnail" 	position="0,0" size="100,75" alphatest="on"/> # fake entry for dynamic thumbnail resizing, currently there is no other way doing this.
 		  <!--<widget name="HelpWindow" 	position="578,495"  size="1,1" zPosition="10" transparent="1" alphatest="on" />-->
