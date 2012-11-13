@@ -1910,9 +1910,9 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/(count &gt; 7 and 2 or 3
 	<!-- 112 Hard disk Setup ( 1 )-->
 	<screen name="HarddiskSetup" position="center,center" size="710,460" title="Harddisk">
 	<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="710,460" alphatest="on" />1	
-		<widget name="model" position="20,20" size="670,28" font="Regular;25" halign="center"/>
-		<widget name="capacity" position="20,60" size="560,28" font="Regular;25" halign="center"/>
-		<widget name="bus" position="20,100" size="560,28" font="Regular;25" halign="center"/>
+		<widget name="model" position="20,20" size="670,28" font="Regular;25" halign="left"/>
+		<widget name="capacity" position="20,60" size="560,28" font="Regular;25" halign="left"/>
+		<widget name="bus" position="20,100" size="560,28" font="Regular;25" halign="left"/>
 		<ePixmap position="230,400" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
 		<widget name="initializetext" position="230,400" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 		</screen>
