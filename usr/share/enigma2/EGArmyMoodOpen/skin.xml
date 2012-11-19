@@ -2536,22 +2536,6 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		</widget>
 		<widget name="config"  position="80,400" size="690,200" scrollbarMode="showOnDemand"   transparent="1" />      
 	</screen>
-	<!-- 149 Sleep Timer Edit  -->
-	<screen name="SleepTimerEdit" position="340,240"  size="660,260"  title="Sleep Timer">
-		<widget name="current_status" position="40,40" size="460,40" valign="center" font="Regular;22"  />
-		<widget name="red" pixmap="EGArmyMoodOpen/buttons/button_red.png" position="10,88" size="12,12" alphatest="on" />
-		<widget name="green" pixmap="EGArmyMoodOpen/buttons/button_green.png" position="10,128" size="12,12" alphatest="on" />
-		<widget name="yellow" pixmap="EGArmyMoodOpen/buttons/button_yellow.png" position="10,168" size="12,12" alphatest="on" />
-		<widget name="blue" pixmap="EGArmyMoodOpen/buttons/button_blue.png" position="10,208" size="12,12" alphatest="on" />
-		<widget name="red_text" position="40,80" size="460,32" valign="center" font="Regular;24" />
-		<widget name="green_text" position="40,120" size="560,32" valign="center" font="Regular;24" />
-		<widget name="yellow_text" position="40,160" size="460,32" valign="center" font="Regular;24" />
-		<widget name="blue_text" position="40,200" size="460,32" valign="center" font="Regular;24" />
-		<widget name="pretext" position="40,10" size="300,32" font="Regular;24" />
-		<widget name="input" position="342,10" size="40,32" font="Regular;24" />
-		<widget name="aftertext" position="380,10" size="160,32" font="Regular;24" />
-		<ePixmap pixmap="EGArmyMoodOpen/sleeptimer.png" position="535,50" size="105,125" alphatest="on" />
-	</screen>
 	<!--150 Subservices Quickzap  -->
 	<screen name="SubservicesQuickzap" position="380,600" size="560,100"	title="Subservices" backgroundColor="transparent" flags="wfNoBorder">
 		<widget source="session.RecordState" render="Pixmap" pixmap="EGArmyMoodOpen/icons/record.png" position="450,0" zPosition="2" size="14,14" alphatest="on" >
