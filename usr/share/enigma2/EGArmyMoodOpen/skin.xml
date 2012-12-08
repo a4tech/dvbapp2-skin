@@ -212,6 +212,9 @@
 		<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="EGArmyMoodOpen/ico_line_on.png" position="765,148" size="20,20" zPosition="4" alphatest="blend" >
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
+		<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="EGArmyMoodOpen/ico_line_on.png" position="765,148" size="20,20" zPosition="4" alphatest="blend" >
+			<convert type="ConditionalShowHide">Blink</convert>
+		</widget>	
 	</screen>
 	<!-- 7 EGAMI (extra) second Infobar  -->
 		<screen name="SecondInfoBar" flags="wfNoBorder" position="0,0" size="1280,720" title="Black Pole" backgroundColor="transparent"  >
