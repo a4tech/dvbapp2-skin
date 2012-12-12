@@ -2110,6 +2110,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<ePixmap position="902,111" zPosition="-1" size="304,174" pixmap="EGArmyMoodOpen/tv_1-fs8.png" alphatest="on" />
 		<widget source="session.VideoPicture" render="Pig" position=" 906,114" size="296,166" zPosition="3" backgroundColor="#ff000000"/> 
 		<widget name="waitingtext" position="80,400" size="760,30" zPosition="4" font="Regular;22" halign="center" valign="center" transparent="1" />
+		<widget source="list" render="Listbox" position="80,110" size="725,375"  scrollbarMode="showOnDemand" >
+		    <convert type="StringList" />
+		</widget>		
 		<widget name="list" position="80,110" size="725,375" scrollbarMode="showOnDemand" transparent="1" />
 		<widget name="freeDiskSpace" position="80,590" zPosition="4" size="760,25" font="Regular;22" halign="left" transparent="1" />
 		<ePixmap pixmap="EGArmyMoodOpen/icons/clock.png" position="80,548" size="14,14" zPosition="1" alphatest="blend"/>
@@ -3374,8 +3377,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	<screen name="PositionerSetup" 	position="0,0" size="1280,720" title="Positioner setup..."	flags="wfNoBorder">
 		<ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="EGArmyMoodOpen/frame_base-fs8.png"/>
 		<ePixmap pixmap="EGArmyMoodOpen/menu/posizioner.png" position="928,425" zPosition="2" size="250,160" alphatest="blend" transparent="1" /> 
-		  <ePixmap position="80,160" zPosition="2" size="1120,460" pixmap="EGArmyMoodOpen/r1120x460.png" alphatest="blend" transparent="1" /> 
-	    <eLabel text="Positioner setup... " position="80,40" zPosition="2" size="800,38" font="RegularAA;34" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>  
+		<ePixmap position="80,160" zPosition="2" size="1120,460" pixmap="EGArmyMoodOpen/r1120x460.png" alphatest="blend" transparent="1" /> 
+		<eLabel text="Positioner setup... " position="80,40" zPosition="2" size="800,38" font="RegularAA;34" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>  
 		<widget name="list" 	position="100,170" 	size="1080,180" backgroundColor="black" transparent="1"/>
 		<widget name="snr_db" position="190,470" 	size="200,24" 	halign="center" valign="center" font="Regular;21" backgroundColor="background" transparent="1"/>
 		<eLabel text="SNR:" 	position="100,500" 	size="80,24" 	font="Regular;21" 	backgroundColor="darkgrey" transparent="1"/>
@@ -3394,12 +3397,12 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget name="fec_value" 	position="660,560" size="100,24" 	font="Regular;21" 	backgroundColor="darkgrey" transparent="1"/>
 		<ePixmap position="56,650" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
 		<ePixmap position="362,650" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
-        <ePixmap position="668,650" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
-        <ePixmap position="974,650" size="250,40" pixmap="EGArmyMoodOpen/buttons/blue25.png" alphatest="on" zPosition="1" />
-		<widget name="key_red" position="56,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-		<widget name="key_green" position="362,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-		<widget name="key_yellow" position="668,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="#a18120" transparent="1" />
-		<widget name="key_blue" position="974,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<ePixmap position="668,650" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
+		<ePixmap position="974,650" size="250,40" pixmap="EGArmyMoodOpen/buttons/blue25.png" alphatest="on" zPosition="1" />
+		<widget name="red" position="56,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget name="green" position="362,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget name="yellow" position="668,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="#a18120" transparent="1" />
+		<widget name="blue" position="974,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
                 <widget name="status_bar" position="100,583" size="460,26" font="Regular;22" foregroundColor="red" backgroundColor="transpBlack" transparent="1"/>
 	</screen>
 	<!-- 205 CiSelection -->
