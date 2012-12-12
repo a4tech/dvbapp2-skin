@@ -2109,10 +2109,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<eLabel text="Recorded files... /hdd/movie" position="80,30" zPosition="2" size="800,38" font="RegularAA;34" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/> 
 		<ePixmap position="902,111" zPosition="-1" size="304,174" pixmap="EGArmyMoodOpen/tv_1-fs8.png" alphatest="on" />
 		<widget source="session.VideoPicture" render="Pig" position=" 906,114" size="296,166" zPosition="3" backgroundColor="#ff000000"/> 
-		<widget name="waitingtext" position="80,400" size="760,30" zPosition="4" font="Regular;22" halign="center" valign="center" transparent="1" />
-		<widget source="list" render="Listbox" position="80,110" size="725,375"  scrollbarMode="showOnDemand" >
-		    <convert type="StringList" />
-		</widget>		
+		<widget name="waitingtext" position="80,400" size="760,30" zPosition="4" font="Regular;22" halign="center" valign="center" transparent="1" />	
 		<widget name="list" position="80,110" size="725,375" scrollbarMode="showOnDemand" transparent="1" />
 		<widget name="freeDiskSpace" position="80,590" zPosition="4" size="760,25" font="Regular;22" halign="left" transparent="1" />
 		<ePixmap pixmap="EGArmyMoodOpen/icons/clock.png" position="80,548" size="14,14" zPosition="1" alphatest="blend"/>
