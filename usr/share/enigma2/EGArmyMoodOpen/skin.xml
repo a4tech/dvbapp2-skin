@@ -53,7 +53,7 @@
 	<fonts>
 		<font filename="Army_Regular_L.ttf" name="Regular" scale="95" />
 		<!--  <font filename="Army_Bold_G.ttf" name="RegularAA" scale="100" />-->
-		<font filename="esp_0.ttf" name="RegularAA" scale="100" />
+		<font filename="venus.ttf" name="RegularAA" scale="100" />
 		<font filename="army-digital.ttf" name="LCD" scale="100" />
 		<font filename="goodtime.ttf" name="OLED" scale="100" />
 		<font filename="tuxtxt.ttf" name="Console" scale="100" />
@@ -291,6 +291,9 @@
 			</widget>
 			<ePixmap pixmap="EGArmyMoodOpen/ico_line_off.png" position="860,659" size="20,20" zPosition="3" alphatest="blend" />
 			<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="EGArmyMoodOpen/ico_line_on.png" position="860,659" size="20,20" zPosition="4" alphatest="blend" >
+				<convert type="ConditionalShowHide">Blink</convert>
+			</widget>
+			<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="EGArmyMoodOpen/ico_line_on.png" position="860,659" size="20,20" zPosition="4" alphatest="blend" >
 				<convert type="ConditionalShowHide">Blink</convert>
 			</widget>			
 			<widget source="session.CurrentService" render="Pixmap" pixmap="EGArmyMoodOpen/icons/icon_dolby.png" position="571,655" zPosition="4" size="70,30" alphatest="on" >
