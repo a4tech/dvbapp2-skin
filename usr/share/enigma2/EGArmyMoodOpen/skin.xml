@@ -1129,7 +1129,7 @@
 			<convert type="ConditionalShowHide" /> 
 		</widget>
 		<widget source="menu" render="Pixmap" pixmap="EGArmyMoodOpen/menu/timer.png" position="960,470" size="260,160" alphatest="blend" transparent="1" >
-			<convert type="MenuEntryCompare">timer_edit</convert>
+			<convert type="MenuEntryCompare">timer_menu</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget source="menu" render="Pixmap" pixmap="EGArmyMoodOpen/menu/media_player.png" position="960,470" size="260,160" alphatest="blend" transparent="1" >
@@ -1144,6 +1144,10 @@
 		    <convert type="MenuEntryCompare">egami_screen</convert>
 		    <convert type="ConditionalShowHide" />
 		</widget>
+		<widget source="menu" render="Pixmap" pixmap="EGArmyMoodOpen/menu/eventview.png" position="960,470"  size="295,300" alphatest="blend" transparent="1" >
+		    <convert type="MenuEntryCompare">picture_player</convert>
+		    <convert type="ConditionalShowHide" />
+		</widget>		
 	</screen> 
 	
 	<screen name="menu_egami" position="0,0" size="1280,720" title="Main menu"  backgroundColor="transparent" flags="wfNoBorder">
