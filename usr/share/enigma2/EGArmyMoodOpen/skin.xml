@@ -2474,7 +2474,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<ePixmap pixmap="EGArmyMoodOpen/buttons/green25.png" position="362,650" size="250,40" alphatest="on" />
 		<widget source="key_red" render="Label" position="56,650" zPosition="1" size="250,40" font="Regular;20" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 		<widget source="key_green" render="Label" position="362,650" zPosition="1" size="250,40" font="Regular;20" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-		<widget name="config" zPosition="2" position="80,90" size="692,425" transparent="1" />
+		<widget name="config" zPosition="2" position="80,90" size="705,425" transparent="1" scrollbarMode="showOnDemand" />
 		<widget source="session.CurrentService" render="Label" position="815,330" size="420,32" zPosition="2" font="Regular;28" halign="center" noWrap="1" transparent="1" foregroundColor="white" backgroundColor="background">
 		<convert type="ServiceName">Name</convert>
 		  </widget>
