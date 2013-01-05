@@ -3404,10 +3404,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<ePixmap position="362,650" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
 		<ePixmap position="668,650" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
 		<ePixmap position="974,650" size="250,40" pixmap="EGArmyMoodOpen/buttons/blue25.png" alphatest="on" zPosition="1" />
-		<widget name="red" position="56,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-		<widget name="green" position="362,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-		<widget name="yellow" position="668,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="#a18120" transparent="1" />
-		<widget name="blue" position="974,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget name="key_red" position="56,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget name="key_green" position="362,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget name="key_yellow" position="668,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="#a18120" transparent="1" />
+		<widget name="key_blue" position="974,650" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
                 <widget name="status_bar" position="100,583" size="460,26" font="Regular;22" foregroundColor="red" backgroundColor="transpBlack" transparent="1"/>
 	</screen>
 	<!-- 205 CiSelection -->
