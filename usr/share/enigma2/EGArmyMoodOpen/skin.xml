@@ -2668,7 +2668,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="session.CurrentService" render="Label" position="130,512" size="200,30" font="Regular;24" zPosition="33" foregroundColor="white" backgroundColor="black" transparent="1" >
 			<convert type="ServicePosition">Length</convert>
 		</widget>
-		<eLabel text="Media Player" position="490,36" size="300,36" zPosition="1" font="RegularAA;32" halign="center" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1" />
+		<eLabel text="Media Player" position="470,36" size="400,36" zPosition="1" font="RegularAA;32" halign="center" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1" />
 		<eLabel text="F i l e l i s t" position="62,121"  size="580,30" zPosition="5" font="Regular;26" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
 		<widget name="filelist" position="100,168"  size="506,279" scrollbarMode="showOnDemand"  backgroundColor="black" transparent="1"  />
 		<eLabel text="P l a y l i s t" position="643,121"  size="580,30" zPosition="5" font="Regular;26" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
