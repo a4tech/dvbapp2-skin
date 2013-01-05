@@ -2464,17 +2464,17 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	<!-- 144 Setup ( 2 )-->
    <screen name="Setup" position="0,0" size="1280,720" title="Setup">
 		<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="EGArmyMoodOpen/frame_base-fs8.png"  />
-		<ePixmap position="58,81" zPosition="2" size="760,550" pixmap="EGArmyMoodOpen/r760x550.png" alphatest="blend" transparent="1" />
+		<ePixmap position="58,81" zPosition="2" size="760,550" pixmap="EGArmyMoodOpen/r760x450.png" alphatest="blend" transparent="1" />
 		<eLabel text="Setup" position="80,30" zPosition="2" size="800,38" font="RegularAA;34" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>   
 		<ePixmap position="870,310" zPosition="-1" size="300,14" pixmap="EGArmyMoodOpen/chan_p1_bar.png" alphatest="on" />
-		<ePixmap position="960,470" zPosition="-1" size="250,160" pixmap="EGArmyMoodOpen/menu/hdmi.png" alphatest="on" />
+		<ePixmap position="960,470" zPosition="-1" size="250,160" pixmap="EGArmyMoodOpen/menu/setup.png" alphatest="on" />
 	     	<ePixmap position="832,81" zPosition="-1" size="378,216" pixmap="EGArmyMoodOpen/tv_2-fs8.png" alphatest="on" />
 		<widget source="session.VideoPicture" render="Pig" position=" 836,84" size="370,208" zPosition="3" backgroundColor="#ff000000"/>
 		<ePixmap pixmap="EGArmyMoodOpen/buttons/red25.png" position="56,650" size="250,40" alphatest="on" />
 		<ePixmap pixmap="EGArmyMoodOpen/buttons/green25.png" position="362,650" size="250,40" alphatest="on" />
 		<widget source="key_red" render="Label" position="56,650" zPosition="1" size="250,40" font="Regular;20" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 		<widget source="key_green" render="Label" position="362,650" zPosition="1" size="250,40" font="Regular;20" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-		<widget name="config" zPosition="2" position="80,90" size="692,530" transparent="1" />
+		<widget name="config" zPosition="2" position="80,90" size="692,425" transparent="1" />
 		<widget source="session.CurrentService" render="Label" position="815,330" size="420,32" zPosition="2" font="Regular;28" halign="center" noWrap="1" transparent="1" foregroundColor="white" backgroundColor="background">
 		<convert type="ServiceName">Name</convert>
 		  </widget>
@@ -2484,6 +2484,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="session.Event_Now" render="Progress" pixmap="EGArmyMoodOpen/chan_p_bar.png" size="300,14" position="870,310" zPosition="1"  backgroundColor="darkgrey" transparent="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>
+		<widget name="description" position="80,560" size="682,50" font="Regular; 22" foregroundColor="un99ff" valign="top" backgroundColor="transpBlack" transparent="1" />
     </screen>
 	<!-- 145 Simple Channel Selection ( 4 )-->
 	<screen name="SimpleChannelSelection" position="center,center" size="1130,520" title="Channel Selection" >
