@@ -2362,9 +2362,14 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget name="RtpText" position="100,650" size="1080,30" font="Regular;24" halign="right" noWrap="1" backgroundColor="transpBlack" />
 	</screen>
 	<!-- 137 Dish -->
-	<screen name="Dish" flags="wfNoBorder" position="1000,180" size="119,146" title="Dish" zPosition="-1" backgroundColor="transparent">
-		<widget name="Dishpixmap" pixmap="EGArmyMoodOpen/icons/dish.png" position="0,0" size="119,146" alphatest="off" />
-	</screen>
+	<screen name="Dish" flags="wfNoBorder" position="20,20" size="150,200" zPosition="-1" backgroundColor="transparent" >
+		<widget name="Dishpixmap" position="0,0" size="130,160" zPosition="-1" pixmap="EGArmyMoodOpen/icons/dish.png" transparent="1" alphatest="on" />
+		<widget name="turnTime" position="25,0" size="120,20" zPosition="1" font="Regular;20" halign="right" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
+		<widget name="From" position="0,163" size="50,17" zPosition="1" font="Regular;17" halign="right" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
+		<widget name="posFrom" position="57,160" size="70,20" zPosition="1" font="Regular;20" halign="left" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
+		<widget name="Goto" position="0,183" size="50,17" zPosition="1" font="Regular;17" halign="right" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
+		<widget name="posGoto" position="57,180" size="70,20" zPosition="1" font="Regular;20" halign="left" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
+	</screen>	
 	<!--  138 Satfinder -->
 	<screen name="Satfinder" position="center,center" 	size="950,460"  title="Satfinder">
 	 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="950,460" alphatest="on" />	
