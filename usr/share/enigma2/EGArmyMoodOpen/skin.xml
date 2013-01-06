@@ -30,8 +30,8 @@
 	</output>
 	<!-- 1 Colors (#AARRGGBB) -->
 	<colors>
-	    <color name="background" value="#25101010"/>
-	    <color name="foreground" value="#dddddd"/>
+		<color name="background" value="#25101010"/>
+		<color name="foreground" value="#dddddd"/>
 		<color name="white" value="#ffffff"/>
 		<color name="grey" value="#8F8F8F"/>
 		<color name="darkgrey" value="#666666"/>
