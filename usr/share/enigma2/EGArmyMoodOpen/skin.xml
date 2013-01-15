@@ -2232,28 +2232,28 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>
 	 <!--  126 VideoEnhancementSetup  ( 4 )-->
 	<screen name="VideoEnhancementSetup" position="center,center" size="1130,520" title="VideoEnhancementSetup">
-	 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1130,520" alphatest="on" />	
-			<ePixmap position="26,460" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1130,520" alphatest="on" />	
+		<ePixmap position="26,460" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
 	        <ePixmap position="302,460" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
 	        <ePixmap position="578,460" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
 	        <ePixmap position="854,460" size="250,40" pixmap="EGArmyMoodOpen/buttons/blue25.png" alphatest="on" zPosition="1" />
-			<widget source="key_red" render="Label" position="26,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-			<widget source="key_green" render="Label" position="302,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-			<widget source="key_yellow" render="Label" position="578,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-			<widget source="key_blue" render="Label" position="854,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-			<widget name="config" position="20,20" size="1090,350" scrollbarMode="showOnDemand" transparent="1" />
-			<widget source="introduction" render="Label" position="290,420" size="550,25" zPosition="10" font="Regular;22" halign="center" valign="center"  foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1" />
-		</screen>
+		<widget source="key_red" render="Label" position="26,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget source="key_green" render="Label" position="302,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget source="key_yellow" render="Label" position="578,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget source="key_blue" render="Label" position="854,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget name="config" position="20,20" size="1090,350" scrollbarMode="showOnDemand" transparent="1" />
+		<widget source="introduction" render="Label" position="290,420" size="550,25" zPosition="10" font="Regular;22" halign="center" valign="center"  foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1" />
+	</screen>
 	 <!--  127 VideoEnhancementPreview  ( 2 )-->	
-		<screen name="VideoEnhancementPreview" position="center,center" size="710,240" title="VideoEnhancementPreview">
-		 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="710,240" alphatest="on" />	
-			<ePixmap position="70,180" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
-            <ePixmap position="390,180" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
-			<widget source="key_red" render="Label" position="70,180" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-			<widget source="key_green" render="Label" position="390,180" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-			<widget name="config" position="20,20" size="670,80" scrollbarMode="showOnDemand" transparent="1" />
-			<widget source="introduction" render="Label" position="15,140" size="680,25" zPosition="10" font="Regular;22" halign="center" valign="center" backgroundColor="#25062748" transparent="1" />
-		</screen>
+	<screen name="VideoEnhancementPreview" position="center,center" size="710,240" title="VideoEnhancementPreview">
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="710,240" alphatest="on" />	
+		<ePixmap position="70,180" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
+		<ePixmap position="390,180" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
+		<widget source="key_red" render="Label" position="70,180" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget source="key_green" render="Label" position="390,180" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget name="config" position="20,20" size="670,80" scrollbarMode="showOnDemand" transparent="1" />
+		<widget source="introduction" render="Label" position="15,140" size="680,25" zPosition="10" font="Regular;22" halign="center" valign="center" backgroundColor="#25062748" transparent="1" />
+	</screen>
 	 <!-- 128 CleanupWizardConfiguration ( 2 )-->		
 	<!--  129 Parental Control Change Pin -->
 	<screen name="ParentalControlChangePin" position="center,center" size="600,340" title="Change pin code">
@@ -2297,15 +2297,15 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>
 	<!--  133 Plugin Download Browser -->
 	<screen name="PluginDownloadBrowser" position="center,center" size="800,460" title="Downloadable plugins">
-	 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="800,460" alphatest="on" />
-	<ePixmap position="754,45" zPosition="2" size="26,405" pixmap="EGArmyMoodOpen/scroll.png" alphatest="blend" transparent="1" />
-        <widget name="text" position="20,10" size="760,28" font="Regular;24"/>
-        <widget name="list" position="20,50" size="760,400" scrollbarMode="showOnDemand" transparent="1" />
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="800,460" alphatest="on" />
+		<ePixmap position="754,45" zPosition="2" size="26,405" pixmap="EGArmyMoodOpen/scroll.png" alphatest="blend" transparent="1" />
+		<widget name="text" position="20,10" size="760,28" font="Regular;24"/>
+		<widget name="list" position="20,50" size="760,400" scrollbarMode="showOnDemand" transparent="1" />
 	</screen>
 	<!-- 134 Radio InfoBar -->
 	<screen name="RadioInfoBar" position="0,490" size="1280,230" title="InfoBar" flags="wfNoBorder" zPosition="-1">
 		<ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="EGArmyMoodOpen/radio_osd-fs8.png" transparent="1" />
-	<ePixmap pixmap="EGArmyMoodOpen/picon_default.png" position="70,123" size="100,60" zPosition="1" alphatest="blend" />
+		<ePixmap pixmap="EGArmyMoodOpen/picon_default.png" position="70,123" size="100,60" zPosition="1" alphatest="blend" />
 		<ePixmap position="1169,138" zPosition="1" size="43,59" pixmap="EGArmyMoodOpen/bar_radio.png" alphatest="on"/>
 		<ePixmap pixmap="EGArmyMoodOpen/ico_rec_off.png" 	position="1120,166" size="44,26" zPosition="1" alphatest="blend" />
 		<widget source="session.RecordState" 	render="Pixmap" pixmap="EGArmyMoodOpen/ico_rec_on.png" 	position="1126,166" size="44,26" zPosition="2" alphatest="blend">
@@ -2395,7 +2395,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>	
 	<!--  138 Satfinder -->
 	<screen name="Satfinder" position="center,center" 	size="950,460"  title="Satfinder">
-	 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="950,460" alphatest="on" />	
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="950,460" alphatest="on" />	
 		<ePixmap pixmap="EGArmyMoodOpen/icons/dish_scan.png" 	position="150,8" zPosition="0" size="119,146" transparent="1" alphatest="on" />
 		<widget source="Frontend" render="Label" position="405,10" zPosition="2" size="280,20" font="Regular;19" halign="center" valign="center" transparent="1">
 			<convert type="FrontendInfo">SNRdB</convert>
@@ -2435,25 +2435,25 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>
 	<!-- 139 select Slot -->
 	<screen name="SatNimSelection" position="center,165" size="600,130" title="select Slot">
-	 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="600,130" alphatest="on" />	
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="600,130" alphatest="on" />	
 			<widget name="nimlist" position="20,10" size="560,100" />
-		</screen>
+	</screen>
 	<!-- 140 Scan Setup -->
 	<screen name="ScanSetup" position="center,center" size="700,500"  title="Service scan">
-	 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="700,500" alphatest="on" />	
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="700,500" alphatest="on" />	
 		<widget name="config" position="10,10" size="680,425" transparent="1" />
 		<widget name="introduction" position="60,465" size="580,25" font="Regular;22" halign="center" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1" />
 	</screen>
 	<!-- 141 Scan Simple -->
 	<screen name="ScanSimple" position="center,center" size="600,500"  title="Service scan">
-	 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="600,500" alphatest="on" />	
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="600,500" alphatest="on" />	
 		<widget name="header" position="10,10" size="580,25" font="Regular;23" transparent="1" />
 		<widget name="config" position="10,55" size="580,350" scrollbarMode="showOnDemand" transparent="1" />
 		<widget name="footer" position="10,465" size="580,25" font="Regular;22" halign="center" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1" />
 	</screen>
 	<!-- 142 Service Info ( 4 )-->
 	  <screen name="ServiceInfo" position="center,center" size="1130,520" title="Serviceinfo">
-	   <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1130,520" alphatest="on" />	
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1130,520" alphatest="on" />	
 		<widget name="infolist" position="20,20" size="1090,440" selectionDisabled="1" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap position="26,460" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
 		<ePixmap position="302,460" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
@@ -2466,7 +2466,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>
 	<!-- 143 Service Scan  -->
 	<screen name="ServiceScan" position="center,center" size="600,460"  title="Service Scan">
-	 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="600,460" alphatest="on" />	
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="600,460" alphatest="on" />	
 		<widget source="FrontendInfo" render="Pixmap" pixmap="EGArmyMoodOpen/icons/scan-s.png" position="15,15" size="64,64" transparent="1" alphatest="on">
 			<convert type="FrontendInfo">TYPE</convert>
 			<convert type="ValueRange">0,0</convert>
@@ -2490,7 +2490,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget name="servicelist" position="20,175" size="560,300" selectionDisabled="1" />
 	</screen>
 	<!-- 144 Setup ( 2 )-->
-   <screen name="Setup" position="0,0" size="1280,720" title="Setup">
+	<screen name="Setup" position="0,0" size="1280,720" title="Setup">
 		<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="EGArmyMoodOpen/frame_base-fs8.png"  />
 		<ePixmap position="58,81" zPosition="2" size="760,550" pixmap="EGArmyMoodOpen/r760x450.png" alphatest="blend" transparent="1" />
 		<eLabel text="Setup" position="80,30" zPosition="2" size="800,38" font="RegularAA;34" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>   
@@ -2513,10 +2513,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<widget name="description" position="80,560" size="682,50" font="Regular; 22" foregroundColor="white" valign="top" backgroundColor="transpBlack" transparent="1" />
-    </screen>
+	</screen>
 	<!-- 145 Simple Channel Selection ( 4 )-->
 	<screen name="SimpleChannelSelection" position="center,center" size="1130,520" title="Channel Selection" >
-	 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1130,520" alphatest="on" />
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1130,520" alphatest="on" />
 	 	<ePixmap position="684,15" zPosition="2" size="26,410" pixmap="EGArmyMoodOpen/scroll.png" alphatest="blend" transparent="1" />		
 		<widget name="list" position="20,20" size="1090,475" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap position="26,460" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
@@ -2530,16 +2530,16 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>
 	<!--  146 Skin Selector  ( 1 )-->
 	<screen name="SkinSelector" position="0,0" size="1280,720" title="Choose your Skin" >
-			<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="EGArmyMoodOpen/frame_base-fs8.png"  />
-			<ePixmap position="764,95" zPosition="2" size="26,448" pixmap="EGArmyMoodOpen/scroll.png" alphatest="blend" transparent="1" />
-			<ePixmap position="58,81" zPosition="2" size="760,550" pixmap="EGArmyMoodOpen/r760x550.png" alphatest="blend" transparent="1" />
-			 <eLabel text="Choose your Skin " position="80,30" zPosition="2" size="600,32" font="RegularAA;28" halign="left" transparent="1" foregroundColor="#58bcff" backgroundColor="#11362d" />  	
-			<widget name="SkinList" position="80,100" size="710,414" scrollbarMode="showOnDemand" transparent="1" />
-			<widget name="Preview" position="930,170" size="280,210"  zPosition="1" alphatest="blend" transparent="1"/>	
-			<ePixmap pixmap="EGArmyMoodOpen/buttons/red25.png" position="300,646" size="250,40" alphatest="on" zPosition="1" />
-			<widget source="key_red" render="Label" position="300,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="left" foregroundColor="white" transparent="1"/>	
-		      <widget source="introduction" render="Label" position="120,570" size="600,28" zPosition="10" font="Regular;24" halign="center" valign="center" foregroundColor="#58bcff"  backgroundColor="transpBlack" transparent="1"/>	
-	   </screen>
+		<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="EGArmyMoodOpen/frame_base-fs8.png"  />
+		<ePixmap position="764,95" zPosition="2" size="26,448" pixmap="EGArmyMoodOpen/scroll.png" alphatest="blend" transparent="1" />
+		<ePixmap position="58,81" zPosition="2" size="760,550" pixmap="EGArmyMoodOpen/r760x550.png" alphatest="blend" transparent="1" />
+		<eLabel text="Choose your Skin " position="80,30" zPosition="2" size="600,32" font="RegularAA;28" halign="left" transparent="1" foregroundColor="#58bcff" backgroundColor="#11362d" />  	
+		<widget name="SkinList" position="80,100" size="710,414" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="Preview" position="930,170" size="280,210"  zPosition="1" alphatest="blend" transparent="1"/>	
+		<ePixmap pixmap="EGArmyMoodOpen/buttons/red25.png" position="300,646" size="250,40" alphatest="on" zPosition="1" />
+		<widget source="key_red" render="Label" position="300,650" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="left" foregroundColor="white" transparent="1"/>	
+		<widget source="introduction" render="Label" position="120,570" size="600,28" zPosition="10" font="Regular;24" halign="center" valign="center" foregroundColor="#58bcff"  backgroundColor="transpBlack" transparent="1"/>	
+	</screen>
 	<!-- 147 Standby -->
 	<screen name="Standby" 	position="0,0" size="1280,720" title="Standby" flags="wfNoBorder" />
 	
@@ -2561,7 +2561,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen> 
 	<!-- 148 Start Wizard -->
 	<screen name="StartWizard" position="0,0" 	size="1280,720"  title="EGAMI Welcome..." flags="wfNoBorder" >
-	      <ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="EGArmyMoodOpen/frame_base-fs8.png"  />
+		<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="EGArmyMoodOpen/frame_base-fs8.png"  />
 	      	<ePixmap position="80,620" zPosition="3" size="60,40" pixmap="EGArmyMoodOpen/button_ok.png" alphatest="blend" transparent="1" />
 		<ePixmap position="841,93" zPosition="1" size="295,300" pixmap="EGArmyMoodOpen/logo_EGAMI.png" transparent="1" alphatest="on" />
 		<!--<ePixmap position="920,460" zPosition="-1" size="220,180" pixmap="EGArmyMoodOpen/menu/start_start.png" alphatest="on" />-->
@@ -2604,21 +2604,21 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>
 	<!-- 151 Subtitles -->
 	<screen name="Subtitles" position="center,center" size="710,460" title="Subtitle selection">
-      <widget name="config" position="20,20" zPosition="1" size="670,400" scrollbarMode="showOnDemand" />
-   </screen>
-   <subtitles>
-	<sub name="Subtitle_TTX" font="Regular;40" foregroundColor="#ffffff" shadowColor="#40101010" shadowOffset="-3,-3" />
-	<sub name="Subtitle_Regular" font="Regular;40" foregroundColor="#ffffff" shadowColor="#40101010" shadowOffset="-3,-3" />
-	<sub name="Subtitle_Bold" font="Replacement;40" foregroundColor="#ffffff" shadowColor="#40101010" shadowOffset="-3,-3" />
-	<sub name="Subtitle_Italic" font="Regular;40" foregroundColor="#ffffff" shadowColor="#40101010" shadowOffset="-3,-3" />
+		<widget name="config" position="20,20" zPosition="1" size="670,400" scrollbarMode="showOnDemand" />
+	</screen>
+	<subtitles>
+		<sub name="Subtitle_TTX" font="Regular;40" foregroundColor="#ffffff" shadowColor="#40101010" shadowOffset="-3,-3" />
+		<sub name="Subtitle_Regular" font="Regular;40" foregroundColor="#ffffff" shadowColor="#40101010" shadowOffset="-3,-3" />
+		<sub name="Subtitle_Bold" font="Replacement;40" foregroundColor="#ffffff" shadowColor="#40101010" shadowOffset="-3,-3" />
+		<sub name="Subtitle_Italic" font="Regular;40" foregroundColor="#ffffff" shadowColor="#40101010" shadowOffset="-3,-3" />
 	</subtitles>
 	<!--152 Subtitle Display -->
 	<screen name="SubtitleDisplay" position="0,0" size="1280,720" zPosition="-1" flags="wfNoBorder" backgroundColor="transparent">    
-    </screen>
+	</screen>
 
-     <!--  153 TimerEdit -->   
+	<!--  153 TimerEdit -->   
 	<screen name="TimerEdit" position="center,center" size="1160,560" title="Timer Edit"  >
-	 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1160,560" alphatest="on" />	
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1160,560" alphatest="on" />	
 		<widget name="description" position="20,20" size="1120,40" 	font="Regular;25" transparent="1" />
 		<widget name="lbegin" position="605,102" size="103,30" font="Regular;25" foregroundColor="transpBlack" />
 		<widget name="lend" position="605,158" size="103,30" font="Regular;25" foregroundColor="transpBlack" />
@@ -2628,12 +2628,12 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>
 	<!-- 154 Timer Edit List ( 4 )-->
 	<screen name="TimerEditList" position="center,center" size="1160,560" title="Timer Editor"  >
-	 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1160,560" alphatest="on" />	
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1160,560" alphatest="on" />	
 		<widget name="timerlist" position="20,20" size="1120,350" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap position="32,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
 		<ePixmap position="314,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
-        <ePixmap position="596,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
-        <ePixmap position="878,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/blue25.png" alphatest="on" zPosition="1" />
+		<ePixmap position="596,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
+		<ePixmap position="878,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/blue25.png" alphatest="on" zPosition="1" />
 		<widget name="key_red" position="32,500" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 		<widget name="key_green" position="314,500" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 		<widget name="key_yellow" position="596,500" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
@@ -2641,10 +2641,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>
 	<!--  155 Timer Entry ( 2 )-->
 	<screen name="TimerEntry" position="center,center" size="1160,560" title="Timer entry"  >
-	 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1160,560" alphatest="on" />	
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1160,560" alphatest="on" />	
 		<widget name="config" position="20,20" size="1120,350" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap position="220,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
-        <ePixmap position="690,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
+		<ePixmap position="690,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
 		<widget name="canceltext" position=" 220,500" size="250,40" font="Regular;24" halign="center" valign="center" foregroundColor="white" zPosition="2" transparent="1" />
 		<widget name="oktext"  position="690,500" 	size="250,40" font="Regular;24" halign="center" valign="center" foregroundColor="white" zPosition="2" transparent="1" />
 	</screen>
@@ -2655,8 +2655,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget name="logentry" position="20,380" size="1120,130" font="Regular;20" />
 		<ePixmap position="32,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
 		<ePixmap position="314,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
-        <ePixmap position="596,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
-        <ePixmap position="878,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/blue25.png" alphatest="on" zPosition="1" />
+		<ePixmap position="596,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
+		<ePixmap position="878,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/blue25.png" alphatest="on" zPosition="1" />
 		<widget name="key_red" position="32,500" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 		<widget name="key_green" position="314,500" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 		<widget name="key_yellow" position="596,500" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
@@ -2664,14 +2664,14 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>
 	<!--  157 Timer Sanity Conflict ( 4 )-->
 	<screen name="TimerSanityConflict" 	position="center,center" size="1160,560" title="Timer sanity error"  >
-	 <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1160,560" alphatest="on" />	
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1160,560" alphatest="on" />	
 		<widget name="list" position="20,20" size="1120,250" scrollbarMode="showOnDemand" transparent="1" />
 		<widget name="timer1" position="20,45"  size="530,225" scrollbarMode="showNever" />
 		<widget name="timer2" position="570,45" size="530,225" scrollbarMode="showNever" />
 		<ePixmap position="32,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
 		<ePixmap position="314,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
-        <ePixmap position="596,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
-        <ePixmap position="878,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/blue25.png" alphatest="on" zPosition="1" />
+		<ePixmap position="596,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
+		<ePixmap position="878,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/blue25.png" alphatest="on" zPosition="1" />
 		<widget name="key_red" position="32,500" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 		<widget name="key_green" position="314,500" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 		<widget name="key_yellow" position="596,500" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
@@ -2679,8 +2679,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>
 	<!--  158 Timer Selection -->
 	<screen name="TimerSelection" position="center,center" size="1280,720" title="Timer selection"  backgroundColor="transparent" flags="wfNoBorder">
-<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="EGArmyMoodOpen/frame_base-fs8.png"  /> 
-		<widget name="timerlist" position="20,20" size="1120,350" zPosition="2" scrollbarMode="showOnDemand" transparent="1" />
+		<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="EGArmyMoodOpen/frame_base-fs8.png"  /> 
+		<widget name="timerlist" position="center,30" size="1120,350" zPosition="2" scrollbarMode="showOnDemand" transparent="1" />
 	</screen>
 	<!--159 Video Finetune -->
 	<screen name="VideoFinetune" position="0,0" size="1280,720" backgroundColor="transpBlack"  >
@@ -2688,7 +2688,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>
 
 	<!--  161 Plugils MediaPlayer -->
-   <screen name="MediaPlayer" position="0,0" size="1280,720" title="MediaPlayer" backgroundColor="black" flags="wfNoBorder" >
+	<screen name="MediaPlayer" position="0,0" size="1280,720" title="MediaPlayer" backgroundColor="black" flags="wfNoBorder" >
 		<ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="EGArmyMoodOpen/mediaplayer_bg.png"  />
 		<ePixmap position="1154,162" zPosition="2" size="26,290" pixmap="EGArmyMoodOpen/scroll.png" alphatest="blend" transparent="1" />
 		<ePixmap position="580,162" zPosition="2" size="26,290" pixmap="EGArmyMoodOpen/scroll.png" alphatest="blend" transparent="1" />
@@ -2883,33 +2883,33 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		</screen>
 		<!-- 172 DVD Burn-DVDMovieSelection  ( 3 )-->
 	<screen name="DVDMovieSelection" position="center,center" size="1130,520" title="Select a movie">
-	<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1130,520" alphatest="on" />	
-			<ePixmap pixmap="EGArmyMoodOpen/buttons/red25.png" position="95,460" zPosition="1" size="250,40" alphatest="on" />
-			<ePixmap pixmap="EGArmyMoodOpen/buttons/green25.png" position="440,460" zPosition="1" size="250,40" alphatest="on" />
-			<ePixmap pixmap="EGArmyMoodOpen/buttons/yellow25.png" position="785,460" zPosition="1" size="250,40" alphatest="on" />
-		    <widget source="key_red" render="Label" position="95,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-			<widget source="key_green" render="Label" position="440,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-			<widget source="key_yellow" render="Label" position="785,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
-			<widget name="waitingtext" position="20,45" size="560,395" zPosition="4" font="Regular;22" halign="center" valign="center" />
-			<widget name="list" position="20,40" size="1090,330" zPosition="2" scrollbarMode="showOnDemand" transparent="1" />
-			<widget name="DescriptionBorder" pixmap="EGArmyMoodOpen/border_eventinfo.png" position="285,316" zPosition="1" size="560,103" transparent="1" alphatest="on" />
-			<widget source="Service" render="Label" position="292,318" zPosition="1" size="480,35" font="Regular;17" foregroundColor="#cccccc">
-				<convert type="MovieInfo">ShortDescription</convert>
-			</widget>
-			<widget source="Service" render="Label" position="535,318" zPosition="1" size="60,22" font="Regular;17" halign="center">
-				<convert type="ServiceTime">Duration</convert>
-				<convert type="ClockToText">AsLength</convert>
-			</widget>
-			<widget source="Service" render="Label" position="475,337" zPosition="2" size="180,22" font="Regular;17" halign="center">
-				<convert type="MovieInfo">RecordServiceName</convert>
-			</widget>
-			<widget source="Service" render="Label" position="290,357" zPosition="1" size="550,47" font="Regular;19">
-				<convert type="EventName">ExtendedDescription</convert>
-			</widget>
-			<widget name="freeDiskSpace" position="295,425" size="540,20" font="Regular;19" valign="center" halign="center" />
-			</screen>
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1130,520" alphatest="on" />	
+		<ePixmap pixmap="EGArmyMoodOpen/buttons/red25.png" position="95,460" zPosition="1" size="250,40" alphatest="on" />
+		<ePixmap pixmap="EGArmyMoodOpen/buttons/green25.png" position="440,460" zPosition="1" size="250,40" alphatest="on" />
+		<ePixmap pixmap="EGArmyMoodOpen/buttons/yellow25.png" position="785,460" zPosition="1" size="250,40" alphatest="on" />
+		<widget source="key_red" render="Label" position="95,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget source="key_green" render="Label" position="440,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget source="key_yellow" render="Label" position="785,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+		<widget name="waitingtext" position="20,45" size="560,395" zPosition="4" font="Regular;22" halign="center" valign="center" />
+		<widget name="list" position="20,40" size="1090,330" zPosition="2" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="DescriptionBorder" pixmap="EGArmyMoodOpen/border_eventinfo.png" position="285,316" zPosition="1" size="560,103" transparent="1" alphatest="on" />
+		<widget source="Service" render="Label" position="292,318" zPosition="1" size="480,35" font="Regular;17" foregroundColor="#cccccc">
+			<convert type="MovieInfo">ShortDescription</convert>
+		</widget>
+		<widget source="Service" render="Label" position="535,318" zPosition="1" size="60,22" font="Regular;17" halign="center">
+			<convert type="ServiceTime">Duration</convert>
+			<convert type="ClockToText">AsLength</convert>
+		</widget>
+		<widget source="Service" render="Label" position="475,337" zPosition="2" size="180,22" font="Regular;17" halign="center">
+			<convert type="MovieInfo">RecordServiceName</convert>
+		</widget>
+		<widget source="Service" render="Label" position="290,357" zPosition="1" size="550,47" font="Regular;19">
+			<convert type="EventName">ExtendedDescription</convert>
+		</widget>
+		<widget name="freeDiskSpace" position="295,425" size="540,20" font="Regular;19" valign="center" halign="center" />
+	</screen>
 	<!-- 173 Cut List Editor -->
-    <screen name="CutListEditor" position="0,0" size="1280,720" title="Cutlist editor" flags="wfNoBorder">
+	<screen name="CutListEditor" position="0,0" size="1280,720" title="Cutlist editor" flags="wfNoBorder">
 		<eLabel position="80,125" size="300,420" zPosition="1" backgroundColor="grey"/>
 		<eLabel position="81,126" size="298,418" zPosition="2" backgroundColor="black"/>
 		<widget source="cutlist" position="90,135" zPosition="3" size="280,400" scrollbarMode="showOnDemand" backgroundColor="black" transparent="1" render="Listbox" >
@@ -3507,38 +3507,28 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>
 	 <!-- 211 myChannelSelection ( 4 )-->
 	<screen name="myChannelSelection" position="center,center" size="1160,560" title="Select service to add..." >
-	<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-2" position="0,0" size="1160,560" alphatest="on" />	
-	  <ePixmap position="1114,10" zPosition="4" size="26,438" pixmap="EGArmyMoodOpen/scroll.png" alphatest="blend" transparent="1" />
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-2" position="0,0" size="1160,560" alphatest="on" />	
+		<ePixmap position="1114,10" zPosition="4" size="26,438" pixmap="EGArmyMoodOpen/scroll.png" alphatest="blend" transparent="1" />
 		<widget name="list" position="20,20" size="1120,420" 	zPosition="3" scrollbarMode="showOnDemand" transparent="1"/>
 		<ePixmap position="32,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
 		<ePixmap position="314,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
-        <ePixmap position="596,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
-        <ePixmap position="878,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/blue25.png" alphatest="on" zPosition="1" />
+		<ePixmap position="596,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/yellow25.png" alphatest="on" zPosition="1" />
+		<ePixmap position="878,500" size="250,40" pixmap="EGArmyMoodOpen/buttons/blue25.png" alphatest="on" zPosition="1" />
 		<widget source="key_red" 	render="Label"  position="32,500" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 		<widget source="key_green" 	render="Label" position="314,500" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 		<widget source="key_yellow" 	render="Label"  position="596,500" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 		<widget source="key_blue" 	render="Label" position="878,500" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
 	</screen>
-	<!-- 212 GenuineDreambox ( 2 )-->
-	  <screen name="genuineDreambox" position="center,center" size="710,460" title="Genuine Dreambox" >
-        <widget name="infotext" position="20,20" zPosition="1" size="670,150" font="Regular;20" halign="center" valign="center" />
-        <widget name="resulttext" position="20,160" zPosition="1" size="670,110" font="Regular;20" halign="center" valign="center" />
-        <widget name="infotext2" position="20,280" zPosition="1" size="670,80" font="Regular;20" halign="center" valign="center" />
-        <ePixmap name="transpBlack" position="70,400" zPosition="4" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" transparent="1" alphatest="on" />
-        <ePixmap name="transpBlack" position="390,400" zPosition="4" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" transparent="1" alphatest="on" />
-        <widget name="kRed" position="70,396" zPosition="5" size="250,40" valign="center" halign="center" font="Regular;22" transparent="1" foregroundColor="white" shadowColor="black" shadowOffset="-1,-1" />         
-        <widget name="kGreen" position="390,396" zPosition="5" size="250,40" valign="center" halign="center" font="Regular;22" transparent="1" foregroundColor="white" shadowColor="black" shadowOffset="-1,-1" />
-    </screen>
 
-    <!-- 213 RecordPathsSettings ( 2 )-->
-    <screen name="RecordPathsSettings" position="center,center" size="750,320"  title="Recording paths ">
-    <ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-2" position="0,0" size="750,320" alphatest="on" />	
+	<!-- 213 RecordPathsSettings ( 2 )-->
+	<screen name="RecordPathsSettings" position="center,center" size="750,320"  title="Recording paths ">
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-2" position="0,0" size="750,320" alphatest="on" />	
 		<widget name="config" position="20,20" size="710,125"  transparent="1"/>
 		<ePixmap position="83,256" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
 		<ePixmap position="417,256" size="250,40" pixmap="EGArmyMoodOpen/buttons/green25.png" alphatest="on" zPosition="1" />
 		<widget source="key_red" render="Label" position="83,260" zPosition="2"	size="250,40" font="Regular;24" halign="center" backgroundColor="black" transparent="1" />
 		<widget source="key_green" render="Label" position="417,260" zPosition="2"	size="250,40" font="Regular;24" halign="center" backgroundColor="black" transparent="1" />
-		</screen>
+	</screen>
 	<!-- 214 VideoSetup (VideoMode Plugin A/V Settings) ( 2 )-->
 	    <!-- LCD/OLED Screens -->
 	<!-- 215 LCD screen (channelselection) -->
@@ -3578,7 +3568,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		</screen>
 	<!-- LCD screen (movieplayer) -->
 	<!--217 InfoBarMoviePlayerSummary -->
-  <screen name="InfoBarMoviePlayerSummary" position="0,0" size="132,64">
+	<screen name="InfoBarMoviePlayerSummary" position="0,0" size="132,64">
 		<widget source="session.CurrentService" render="Label" position="6,0" size="120,25" font="Display;12" halign="center" valign="center" >
 		<convert type="ServiceName">Name</convert>
 		</widget>
@@ -3614,7 +3604,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="parent.Title" render="Label" position="6,0" size="120,64" font="Display;14" halign="center" valign="center" />
 		</screen>
 	<!-- LCD screen (standby) -->
-    <!--221 StandbySummary -->
+	<!--221 StandbySummary -->
 	<screen name="StandbySummary" position="0,0" size="132,64">
 		<widget source="global.CurrentTime" render="Label" position="6,0" size="120,64" font="Display;38" halign="center" valign="center">
 		<convert type="ClockToText">Format:%H:%M</convert>
@@ -3625,23 +3615,6 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
 	</screen>
-<!-- LCD screen (summary) -->
-	 <!--222 NabInfoBarSummary -->	
-	<screen name="NabInfoBarSummary" position="0,0" size="132,64">
-		<widget source="session.CurrentService" render="Picon" zPosition="1" position="31,0" size="70,40" path="piconlcd" >
-		<convert type="ServiceName">Reference</convert>
-		</widget>
-		<widget source="session.RecordState" render="FixedLabel" text="R" position="110,10" size="20,20" font="Display;20" >
-		<convert type="ConditionalShowHide">Blink</convert>
-		</widget>
-		<widget source="session.Event_Now" render="Progress" position="3,42" size="126,4" borderWidth="1" >
-		<convert type="EventTime">Progress</convert>
-		</widget>
-		<widget source="global.CurrentTime" render="Label" position="0,46" size="132,18" font="LCD;18" halign="center" >
-		<convert type="ClockToText">Default</convert>
-		</widget>
-		</screen>
-	<!-- LCD screen (summary) -->
 	 <!--223 JobView_summary -->
 	<screen name="JobView_summary" position="0,0" size="132,64">
 		<widget source="parent.summary_job_name" render="Label" position="6,4" size="120,42" font="Display;14" />
@@ -3652,8 +3625,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		</widget>
 		</screen>
 		
-		<!--  224 MyTubePlayer -->
-	  <screen name="MyTubePlayer" position="0,490" size="1280,720" title="InfoBar" backgroundColor="transparent2" flags="wfNoBorder">
+	<!--  224 MyTubePlayer -->
+	<screen name="MyTubePlayer" position="0,490" size="1280,720" title="InfoBar" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap position="0,0" zPosition="-1" size="1280,230" pixmap="EGArmyMoodOpen/moviebar-fs8.png"/>
 		 <widget source="global.CurrentTime" 	render="Label" position="1026,75" 	size="140,34" zPosition="2"	font="LCD;32" valign="top" halign="right" foregroundColor="white"	backgroundColor="transpBlack" transparent="1">
 			<convert type="ClockToText">Default</convert>
