@@ -3074,6 +3074,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	<screen name="NetworkWizard" position="0,0" size="1280,720" title="EGAMI Welcome..." flags="wfNoBorder" >
 		<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="EGArmyMoodOpen/frame_base-fs8.png"  />
 		<ePixmap position="80,620" zPosition="3" size="60,40" pixmap="EGArmyMoodOpen/button_ok.png" alphatest="blend" transparent="1" />
+		<ePixmap position="160,623" zPosition="3" size="120,40" pixmap="EGArmyMoodOpen/buttons/key_txt.png" alphatest="blend" transparent="1" />
 		<ePixmap position="841,93" zPosition="1" size="295,300" pixmap="EGArmyMoodOpen/logo_EGAMI.png" transparent="1" alphatest="on" />
 		<ePixmap position="920,460" zPosition="-1" size="220,180" pixmap="EGArmyMoodOpen/menu/start_net.png" alphatest="on" />
 		<eLabel text="EGAMI Welcome...Net" position="80,30" size="800,44" font="RegularAA;40" halign="left" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
