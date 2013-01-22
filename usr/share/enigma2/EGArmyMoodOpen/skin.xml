@@ -2058,13 +2058,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget name="statusicon" position="45,78" size="20,25" zPosition="3" alphatest="on" pixmaps="EGArmyMoodOpen/icons/play.png,EGArmyMoodOpen/icons/pause.png,EGArmyMoodOpen/icons/stop.png,EGArmyMoodOpen/icons/forward.png,EGArmyMoodOpen/icons/backward.png,EGArmyMoodOpen/icons/slow.png,EGArmyMoodOpen/icons/blank.png" />
 		<widget name="speed" position="70,78" size="80,25" font="Regular;17" halign="left" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="4" />	      
 		  <ePixmap position="0,0" zPosition="-1" size="1280,230" pixmap="EGArmyMoodOpen/moviebar-fs8.png"/>
-		 <widget source="global.CurrentTime" 	render="Label" position="1026,75" 	size="140,34" zPosition="2"	font="LCD;32" valign="top" halign="right" foregroundColor="white"	backgroundColor="transpBlack" transparent="1">
+		 <widget source="global.CurrentTime" 	render="Label" position="1026,75" size="140,34" zPosition="2" font="LCD;32" valign="top" halign="right" foregroundColor="white" backgroundColor="transpBlack" transparent="1">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="global.CurrentTime" 	render="Label" position="1123,77" 	size="70,22" zPosition="2"	font="LCD;20" valign="top" halign="right" foregroundColor="#f23d21"	backgroundColor="transpBlack" transparent="1">
+		<widget source="global.CurrentTime" 	render="Label" position="1123,77" size="80,22" zPosition="2"	font="LCD;20" valign="top" halign="right" foregroundColor="#f23d21" backgroundColor="transpBlack" transparent="1">
 			<convert type="ClockToText">Format::%S</convert>
 		</widget>	
-		<widget source="global.CurrentTime" render="Label" position="100,78" size="110,24" font="Regular;22" halign="left"  foregroundColor="white"	backgroundColor="transpBlack" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="100,78" size="130,24" font="Regular;22" halign="left"  foregroundColor="white"	backgroundColor="transpBlack" transparent="1">
 			<convert type="ClockToText">Format:%d.%m.%Y</convert>
 		</widget>
 		  <widget source="session.CurrentService" render="Label" position="375,69" size="530,30" zPosition="2" font="Regular;26" halign="center" noWrap="1" foregroundColor="white" transparent="1" backgroundColor="background">
