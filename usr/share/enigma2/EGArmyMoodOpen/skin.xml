@@ -3182,7 +3182,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<ePixmap position="920,460" zPosition="-1" size="220,180" pixmap="EGArmyMoodOpen/menu/start_net.png" alphatest="on" />
 		<eLabel text="EGAMI Welcome...Net" position="80,30" size="800,44" font="RegularAA;40" halign="left" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 		<widget name="wizard" pixmap="EGArmyMoodOpen/wizard.png" position="80,120" zPosition="10" size="140,188" transparent="1" alphatest="on"/>
-		<widget name="text" position="320,150" size="340,330" font="Regular;22" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
+		<widget name="text" position="320,150" size="380,330" font="Regular;22" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 		<ePixmap pixmap="EGArmyMoodOpen/buttons/button_red.png" position="320,114" size="15,16" alphatest="on" />
 		<widget name="languagetext" position="350,108" size="180,30" font="Regular;20" foregroundColor="grey" backgroundColor="transpBlack" transparent="1"/>
 		<widget source="list" render="Listbox"	position="80,400" size="690,200" scrollbarMode="showOnDemand"  selectionPixmap="EGArmyMoodOpen/icons/listselection710x30-fs8.png" transparent="1" >
