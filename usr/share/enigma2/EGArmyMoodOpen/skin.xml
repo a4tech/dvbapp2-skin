@@ -1418,6 +1418,14 @@
 		<ePixmap position="440,460" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
 		<widget source="key_red" render="Label" position="440,460" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" foregroundColor="white" transparent="1"/>
 	</screen>
+	<screen name="NetworkMountsMenu" position="center,center" size="1130,520" title="Select Network Adapter" >
+		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1130,520" alphatest="on" />	
+	  	<ePixmap position="790,70" zPosition="-1" size="320,170" pixmap="EGArmyMoodOpen/r320x170.png" alphatest="blend" transparent="1" />
+		<widget name="menulist" position="20,70" 	size="710,375" 	scrollbarMode="showOnDemand" transparent="1" />
+		<widget source="introduction" render="Label" position="800,90"  size="300,132" zPosition="10" font="Regular;22" halign="center" valign="center" foregroundColor="white" backgroundColor="transpBlack" transparent="1" />
+		<ePixmap position="440,460" size="250,40" pixmap="EGArmyMoodOpen/buttons/red25.png" alphatest="on" zPosition="1" />
+		<widget source="key_red" render="Label" position="440,460" size="250,40" zPosition="2" font="Regular;24" halign="center" valign="center" foregroundColor="white" transparent="1"/>
+	</screen>	  
 	<!-- 93 TextBox Nameserver Setup ( 3 )-->
 	<screen name="NameserverSetup"	position="center,center" size="1130,520" title="Nameserver Setup" >
 		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="1130,520" alphatest="on" />	
