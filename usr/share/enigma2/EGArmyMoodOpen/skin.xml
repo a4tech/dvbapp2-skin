@@ -2180,6 +2180,19 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="800,460" alphatest="on" />	
 		<widget name="config" position="20,20" size="760,400" />
 	</screen>
+	<screen name="HistoryZapSelector" position="center,center" size="350,240" title="History zap...">
+		<widget source="menu" render="Listbox" position="0,10" size="350,220" scrollbarMode="showOnDemand">
+			<convert type="TemplatedMultiContent">
+				{"template": [
+						MultiContentEntryText(pos = (10, 0), size = (20, 22), flags = RT_HALIGN_CENTER | RT_VALIGN_CENTER, text = 1),
+						MultiContentEntryText(pos = (40, 0), size = (290, 22), font = 1, flags = RT_HALIGN_LEFT, text = 2)
+					],
+				 "fonts": [gFont("Regular", 22), gFont("Regular", 20)],
+				 "itemHeight": 22
+				}
+			</convert>
+		</widget>
+	</screen>	
 	<!--  123 NumberZap -->
 	<screen name="NumberZap" position="center,center" size="440,230" title="Channel" flags="wfNoBorder" backgroundColor="transparent">
 		<ePixmap position="0,0" zPosition="0" size="440,230" pixmap="EGArmyMoodOpen/channel.png" />
