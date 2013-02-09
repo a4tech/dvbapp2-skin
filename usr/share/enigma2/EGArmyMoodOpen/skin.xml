@@ -1009,8 +1009,7 @@
 		<ePixmap position="888,482" zPosition="2" size="300,26" pixmap="EGArmyMoodOpen/next.png" alphatest="blend" transparent="1" />
 		<ePixmap position="982,30" zPosition="2" size="74,36" pixmap="EGArmyMoodOpen/buttons/key_menu1.png" transparent="1" alphatest="on" /> 
 		<ePixmap position="1082,30" zPosition="2" size="74,36" pixmap="EGArmyMoodOpen/buttons/key_exit.png" transparent="1" alphatest="on" /> 
-		<ePixmap position="764,93" zPosition="2" size="26,494" pixmap="EGArmyMoodOpen/scroll/scroll_tv.png" alphatest="blend" transparent="1" />
-		<widget name="list"  position="70,100" size="720,484" scrollbarMode="showOnDemand" foregroundColorServiceNotAvail="#666666" serviceItemHeight="32" serviceNumberFont="Regular;18" serviceNameFont="Regular;24" serviceInfoFont="Regular;24" colorServiceDescription="#58bcff" picServiceEventProgressbar="EGArmyMoodOpen/pl.png" selectionPixmap="EGArmyMoodOpen/icons/listselection700x32-fs8.png" transparent="1" />
+		<widget name="list"  position="67,90" size="720,540" scrollbarMode="showOnDemand" foregroundColorServiceNotAvail="#666666" serviceItemHeight="32" serviceNumberFont="Regular;18" serviceNameFont="Regular;24" serviceInfoFont="Regular;24" colorServiceDescription="#58bcff" picServiceEventProgressbar="EGArmyMoodOpen/pl.png" selectionPixmap="EGArmyMoodOpen/icons/listselection700x32-fs8.png" transparent="1" />
 		<widget source="ServiceEvent" render="Label" position="822,304" zPosition="1" size="420,28" font="Regular;22" halign="center" foregroundColor="white" backgroundColor="transpBlack" transparent="1" noWrap="1">
 			<convert type="ServiceName">Name</convert>
 		</widget>
