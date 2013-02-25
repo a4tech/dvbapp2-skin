@@ -823,8 +823,8 @@
 	<!--  16 MediaPlayer -->
 	<screen name="MediaPlayer" position="0,0" size="1280,720" title="MediaPlayer" backgroundColor="black" flags="wfNoBorder" >
 		<ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="EGArmyMoodOpen/mediaplayer_bg.png"  />
-		<ePixmap position="1154,162" zPosition="2" size="26,290" pixmap="EGArmyMoodOpen/scroll/scroll/scroll.png" alphatest="blend" transparent="1" />
-		<ePixmap position="580,162" zPosition="2" size="26,290" pixmap="EGArmyMoodOpen/scroll/scroll/scroll.png" alphatest="blend" transparent="1" />
+		<ePixmap position="1154,162" zPosition="2" size="26,290" pixmap="EGArmyMoodOpen/scroll/scroll.png" alphatest="blend" transparent="1" />
+		<ePixmap position="580,162" zPosition="2" size="26,290" pixmap="EGArmyMoodOpen/scroll/scroll.png" alphatest="blend" transparent="1" />
 		<eLabel text="Edit" font="Regular;26" position="1028,46" zPosition="1" size="104,36" foregroundColor="grey" backgroundColor="black" transparent="1" alphatest="blend" /> 
 		<ePixmap position="1128,46" zPosition="1" size="74,36" pixmap="EGArmyMoodOpen/buttons/key_menu1.png" transparent="1" alphatest="blend" /> 
 		<widget source="session.CurrentService" render="Label" position="130,512" size="200,30" font="Regular;24" zPosition="33" foregroundColor="white" backgroundColor="black" transparent="1" >
@@ -866,7 +866,7 @@
 	</screen>
 	<!--  17 About -->
 	<screen name="About" position="0,0" size="1280,720" title="About" backgroundColor="transparent" flags="wfNoBorder">
-		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="skin_default/oealliance.png" alphatest="blend" transparent="1" />
+		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="EGArmyMoodOpen/oealliance.png" alphatest="blend" transparent="1" />
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
 		<eLabel text="EGAMI v3.0" position="865,400" zPosition="2" size="350,46" font="RegularAA;38" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>
@@ -875,14 +875,14 @@
 	</screen>
 	<!--  18 System Memory Info -->
 	<screen name="SystemMemoryInfo" position="0,0" size="1280,720" title="About" backgroundColor="transparent" flags="wfNoBorder">
-		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="skin_default/oealliance.png" alphatest="blend" transparent="1" />
+		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="EGArmyMoodOpen/oealliance.png" alphatest="blend" transparent="1" />
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
 		<widget name="AboutScrollLabel" position="30,225" size="458,400" font="Regular;20" transparent="0" zPosition="1" />
 	</screen>
 	<!--  19 Network Info -->
 	<screen name="SystemNetworkInfo" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
-		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="skin_default/oealliance.png" alphatest="blend" transparent="1" />
+		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="EGArmyMoodOpen/oealliance.png" alphatest="blend" transparent="1" />
 		<eLabel text="EGAMI v3.0" position="865,400" zPosition="2" size="350,46" font="RegularAA;38" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
@@ -906,7 +906,7 @@
 		<widget name="statuspic" pixmaps="buttons/button_green.png,buttons/button_green_off.png" position="178,600" zPosition="10" size="15,16" transparent="0" alphatest="on"/>
 	</screen>
 	<screen name="Devices" position="0,0" size="1280,720" title="About" backgroundColor="transparent" flags="wfNoBorder">
-		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="skin_default/oealliance.png" alphatest="blend" transparent="1" />
+		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="EGArmyMoodOpen/oealliance.png" alphatest="blend" transparent="1" />
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
 		<widget name="AboutScrollLabel" position="30,225" size="458,400" font="Regular;20" transparent="0" zPosition="1" />
@@ -1239,7 +1239,7 @@ self.autoResize()
 		<ePixmap pixmap="EGArmyMoodOpen/frame_base-fs8.png" zPosition="-1" position="0,0" size="1280,720" alphatest="on" />
 	 	<ePixmap position="1164,135" zPosition="2" size="26,504" pixmap="EGArmyMoodOpen/scroll/scroll.png" alphatest="blend" transparent="1" />
 		<eLabel text="help..." position="450,63" size="740,50" font="Regular;40" halign="center" backgroundColor="transpBlack" transparent="1"/>
-		<widget name="rc" position="150,105" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="on" />
+		<widget name="rc" position="150,105" size="154,500" pixmaps="EGArmyMoodOpen/rc.png,EGArmyMoodOpen/rcold.png" zPosition="10" alphatest="on" />
 		<widget name="long_key" position="80,585" size="300,30" font="Regular;24" halign="center" foregroundColor="transpBlack" backgroundColor="transpBlack" transparent="1" />
 		<widget name="list" position="450,140" size="740,494" scrollbarMode="showOnDemand" transparent="1" />
 		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="EGArmyMoodOpen/arrowdown.png" zPosition="11" alphatest="on" />
@@ -2111,7 +2111,7 @@ self["list"].instance.setItemHeight(25)
 		<widget source="session.CurrentService" render="Label" position="280,5" size="120,27" font="Regular;20" halign="right" foregroundColor="white" backgroundColor="background">
 			<convert type="ServicePosition">Length</convert>
 		</widget>
-		<widget name="PTSSeekPointer" position="0,30" zPosition="3" size="19,20" pixmap="/usr/share/enigma2/skin_default/timeline-now.png" alphatest="on" />
+		<widget name="PTSSeekPointer" position="0,30" zPosition="3" size="19,20" pixmap="/usr/share/enigma2/EGArmyMoodOpen/timeline-now.png" alphatest="on" />
 		<ePixmap position="15,33" size="390,15" zPosition="1" pixmap="EGArmyMoodOpen/slider_back.png" alphatest="on"/>
 			 <widget source="session.CurrentService" render="Progress" position="15,33" size="390,15" zPosition="2" pixmap="EGArmyMoodOpen/slider.png" transparent="1">
 			<convert type="ServicePosition">Position</convert>
@@ -2217,7 +2217,7 @@ self["list"].instance.setItemHeight(25)
 		<ePixmap pixmap="EGArmyMoodOpen/buttons/button_red.png" position="240,320" zPosition="0" size="15,16" transparent="1" alphatest="on" />
 		<widget name="languagetext" position="270,320" size="180,30" font="Regular;18" />
 		<widget name="wizard" pixmap="EGArmyMoodOpen/wizard.png" position="220,120" zPosition="10" size="140,188" alphatest="on" />
-		<!--<widget name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="810,120" zPosition="10" size="154,500" alphatest="on" />
+		<!--<widget name="rc" pixmaps="EGArmyMoodOpen/rc.png,EGArmyMoodOpen/rcold.png" position="810,120" zPosition="10" size="154,500" alphatest="on" />
 		<widget name="arrowdown" pixmap="EGArmyMoodOpen/arrowdown.png" position="-100,-100" zPosition="11" size="37,70" alphatest="on" />
 		<widget name="arrowdown2" pixmap="EGArmyMoodOpen/arrowdown.png" position="-100,-100" zPosition="11" size="37,70" alphatest="on" />
 		<widget name="arrowup" pixmap="EGArmyMoodOpen/arrowup.png" position="-100,-100" zPosition="11" size="37,70" alphatest="on" />
@@ -2233,7 +2233,7 @@ self["list"].instance.setItemHeight(25)
 			<convert type="StringList" />
 		</widget>
 		<widget name="config" zPosition="1" position="20,300" size="560,200" scrollbarMode="showOnDemand" />            
-		<!--<widget name="rc" pixmap="skin_default/rc.png" position="600,502" zPosition="10" size="154,500" transparent="1" alphatest="on"/>
+		<!--<widget name="rc" pixmap="EGArmyMoodOpen/rc.png" position="600,502" zPosition="10" size="154,500" transparent="1" alphatest="on"/>
 		<widget name="arrowdown" pixmap="EGArmyMoodOpen/arrowdown.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>
 		<widget name="arrowup" pixmap="EGArmyMoodOpen/arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>
 		<widget name="arrowup2" pixmap="EGArmyMoodOpen/arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>-->
@@ -2262,7 +2262,7 @@ self["list"].instance.setItemHeight(25)
 		<widget name="languagetext" position="55,225" size="180,30" font="Regular;18" />
 		<widget name="config" position="50,300" zPosition="1" size="440,200" transparent="1" scrollbarMode="showOnDemand" />            
 		<widget name="wizard" pixmap="EGArmyMoodOpen/wizard.png" position="40,50" zPosition="10" size="140,188" transparent="1" alphatest="on"/>
-		<!--<widget name="rc" pixmap="skin_default/rc.png" position="500,600" zPosition="10" size="154,500" transparent="1" alphatest="on"/>
+		<!--<widget name="rc" pixmap="EGArmyMoodOpen/rc.png" position="500,600" zPosition="10" size="154,500" transparent="1" alphatest="on"/>
 		<widget name="arrowdown" pixmap="EGArmyMoodOpen/arrowdown.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>
 		<widget name="arrowup" pixmap="EGArmyMoodOpen/arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>
 		<widget name="arrowup2" pixmap="EGArmyMoodOpen/arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>-->
@@ -2335,7 +2335,7 @@ self["list"].instance.setItemHeight(25)
 			<convert type="StringList" />
 		</widget>
 		<widget name="config" zPosition="1" position="20,300" size="560,200" scrollbarMode="showOnDemand" />            
-		<!--<widget name="rc" pixmap="skin_default/rc.png" position="600,502" zPosition="10" size="154,500" transparent="1" alphatest="on"/>
+		<!--<widget name="rc" pixmap="EGArmyMoodOpen/rc.png" position="600,502" zPosition="10" size="154,500" transparent="1" alphatest="on"/>
 		<widget name="arrowdown" pixmap="EGArmyMoodOpen/arrowdown.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>
 		<widget name="arrowup" pixmap="EGArmyMoodOpen/arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>
 		<widget name="arrowup2" pixmap="EGArmyMoodOpen/arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="on"/>-->
@@ -4154,7 +4154,7 @@ self["list"].instance.setItemHeight(25)
 		<widget name="ecminfo" position="79,314" size="440,300" font="Regular;20" zPosition="2" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 	</screen>
 	<screen name="EGEmuManagerStarting" position="390,100" size="484,250" title="EGAMI" flags="wfNoBorder">
-	      <widget name="starting" position="0,0" size="484,250" zPosition="-1" pixmaps="skin_default/egami_icons/startcam_1.png,skin_default/egami_icons/startcam_2.png,skin_default/egami_icons/startcam_3.png,skin_default/egami_icons/startcam_4.png,skin_default/egami_icons/startcam_5.png,skin_default/egami_icons/startcam_6.png,skin_default/egami_icons/startcam_7.png,skin_default/egami_icons/startcam_8.png,skin_default/egami_icons/startcam_9.png,skin_default/egami_icons/startcam_10.png,skin_default/egami_icons/startcam_11.png" transparent="1" />
+	      <widget name="starting" position="0,0" size="484,250" zPosition="-1" pixmaps="EGArmyMoodOpen/egami_icons/startcam_1.png,EGArmyMoodOpen/egami_icons/startcam_2.png,EGArmyMoodOpen/egami_icons/startcam_3.png,EGArmyMoodOpen/egami_icons/startcam_4.png,EGArmyMoodOpen/egami_icons/startcam_5.png,EGArmyMoodOpen/egami_icons/startcam_6.png,EGArmyMoodOpen/egami_icons/startcam_7.png,EGArmyMoodOpen/egami_icons/startcam_8.png,EGArmyMoodOpen/egami_icons/startcam_9.png,EGArmyMoodOpen/egami_icons/startcam_10.png,EGArmyMoodOpen/egami_icons/startcam_11.png" transparent="1" />
 	      <widget name="text" position="10,180" halign="center" size="460,60" zPosition="1" font="Regular;20" valign="top" transparent="1" />
 	</screen>
 	<screen name="EGAddonMenu" position="0,0" size="1280,720" title="EGAMI Addon Manager" backgroundColor="transparent" flags="wfNoBorder">
@@ -4248,7 +4248,7 @@ self["list"].instance.setItemHeight(25)
 		<panel name="FullscreenYellow1Panel" />
 	</screen> 
 	<screen name="EGAMIBackupPanel_Step3" position="center,center" size="484,250" title="EGAMI Backup in progress..." flags="wfNoBorder">
-	      <widget name="status" position="0,0" size="484,250" zPosition="-1" pixmaps="skin_default/egami_icons/backup_1.png,skin_default/egami_icons/backup_2.png,skin_default/egami_icons/backup_3.png,skin_default/egami_icons/backup_4.png,skin_default/egami_icons/backup_5.png,skin_default/egami_icons/backup_6.png"  />
+	      <widget name="status" position="0,0" size="484,250" zPosition="-1" pixmaps="EGArmyMoodOpen/egami_icons/backup_1.png,EGArmyMoodOpen/egami_icons/backup_2.png,EGArmyMoodOpen/egami_icons/backup_3.png,EGArmyMoodOpen/egami_icons/backup_4.png,EGArmyMoodOpen/egami_icons/backup_5.png,EGArmyMoodOpen/egami_icons/backup_6.png"  />
 	      <widget name="label" position="0,200" halign="center" size="484,60" zPosition="1" font="Regular;20" valign="top" transparent="1" />
 	</screen>
 	<screen name="EGAMIRestorePanel_Step1" position="0,0" size="1280,720" title="EGAMI Image Restore Panel - STEP 1" backgroundColor="transparent" flags="wfNoBorder">
@@ -4260,7 +4260,7 @@ self["list"].instance.setItemHeight(25)
 		<panel name="FullscreenBlue1Panel" />
 	</screen>
 	<screen name="EGAMIRestorePanel_Step2" position="center,center" size="484,250" title="EGAMI Restore in progress..." flags="wfNoBorder">
-		    <widget name="status" position="0,0" size="484,250" zPosition="-1" pixmaps="skin_default/egami_icons/restore_1.png,skin_default/egami_icons/restore_2.png,skin_default/egami_icons/restore_3.png,skin_default/egami_icons/restore_4.png,skin_default/egami_icons/restore_5.png,skin_default/egami_icons/restore_6.png"  />
+		    <widget name="status" position="0,0" size="484,250" zPosition="-1" pixmaps="EGArmyMoodOpen/egami_icons/restore_1.png,EGArmyMoodOpen/egami_icons/restore_2.png,EGArmyMoodOpen/egami_icons/restore_3.png,EGArmyMoodOpen/egami_icons/restore_4.png,EGArmyMoodOpen/egami_icons/restore_5.png,EGArmyMoodOpen/egami_icons/restore_6.png"  />
 		    <widget name="label" position="0,200" halign="center" size="484,60" zPosition="1" font="Regular;20" valign="top" transparent="1" />
 	</screen>
 	<screen name="SmartScript" position="0,0" size="1280,720" backgroundColor="transparent" flags="wfNoBorder" title="EGAMI SmartScript...">
