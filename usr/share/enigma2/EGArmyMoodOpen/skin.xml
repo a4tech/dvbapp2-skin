@@ -866,7 +866,7 @@
 	</screen>
 	<!--  17 About -->
 	<screen name="About" position="0,0" size="1280,720" title="About" backgroundColor="transparent" flags="wfNoBorder">
-		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="EGArmyMoodOpen/oealliance.png" alphatest="blend" transparent="1" />
+		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="EGArmyMoodOpen/menu/oealliance.png" alphatest="blend" transparent="1" />
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
 		<eLabel text="EGAMI v3.0" position="865,400" zPosition="2" size="350,46" font="RegularAA;38" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>
@@ -875,14 +875,14 @@
 	</screen>
 	<!--  18 System Memory Info -->
 	<screen name="SystemMemoryInfo" position="0,0" size="1280,720" title="About" backgroundColor="transparent" flags="wfNoBorder">
-		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="EGArmyMoodOpen/oealliance.png" alphatest="blend" transparent="1" />
+		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="EGArmyMoodOpen/menu/oealliance.png" alphatest="blend" transparent="1" />
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
 		<widget name="AboutScrollLabel" position="30,225" size="458,400" font="Regular;20" transparent="0" zPosition="1" />
 	</screen>
 	<!--  19 Network Info -->
 	<screen name="SystemNetworkInfo" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
-		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="EGArmyMoodOpen/oealliance.png" alphatest="blend" transparent="1" />
+		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="EGArmyMoodOpen/menu/oealliance.png" alphatest="blend" transparent="1" />
 		<eLabel text="EGAMI v3.0" position="865,400" zPosition="2" size="350,46" font="RegularAA;38" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1"/>
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
@@ -906,7 +906,7 @@
 		<widget name="statuspic" pixmaps="buttons/button_green.png,buttons/button_green_off.png" position="178,600" zPosition="10" size="15,16" transparent="0" alphatest="on"/>
 	</screen>
 	<screen name="Devices" position="0,0" size="1280,720" title="About" backgroundColor="transparent" flags="wfNoBorder">
-		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="EGArmyMoodOpen/oealliance.png" alphatest="blend" transparent="1" />
+		<ePixmap position="870,450" zPosition="2" size="271,183" pixmap="EGArmyMoodOpen/menu/oealliance.png" alphatest="blend" transparent="1" />
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
 		<widget name="AboutScrollLabel" position="30,225" size="458,400" font="Regular;20" transparent="0" zPosition="1" />
