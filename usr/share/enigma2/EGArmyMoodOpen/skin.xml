@@ -952,9 +952,9 @@
 		<widget source="description" render="Label" position="80,560" size="682,50" font="Regular; 22" foregroundColor="white" valign="top" backgroundColor="transpBlack" transparent="1" />
 		<panel name="FullscreenRed2Panel" />
 	</screen>
-	<screen name="AudioSelection" position="center,center" size="800,340" title="Audio">
+	<screen name="AudioSelection" position="center,center" size="740,390" title="Audio">
 		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="800,340" alphatest="on" />	
-		<widget name="config" position="60,20" size="680,110" scrollbarMode="showOnDemand" />
+		<widget name="config" position="60,20" size="660,160" scrollbarMode="showOnDemand" />
 		<widget source="key_red" render="Pixmap" pixmap="EGArmyMoodOpen/buttons/key_red.png" position="20,20" size="35,25" alphatest="on">
 			<convert type="ConditionalShowHide" />
 		</widget>
@@ -967,7 +967,7 @@
 		<widget source="key_blue" render="Pixmap" pixmap="EGArmyMoodOpen/buttons/key_blue.png" position="20,95" size="35,25" alphatest="on">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="streams" render="Listbox" scrollbarMode="showOnDemand" position="20,150" size="760,200" zPosition="3" transparent="1" >
+		<widget source="streams" render="Listbox" scrollbarMode="showOnDemand" position="20,200" size="700,200" zPosition="3" transparent="1" >
 			<convert type="TemplatedMultiContent">
 				{"templates":
 					{"default": (25, [ 
