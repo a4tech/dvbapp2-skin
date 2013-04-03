@@ -2165,7 +2165,7 @@ self["list"].instance.setItemHeight(25)
 		<!--<ePixmap position="920,460" zPosition="-1" size="220,180" pixmap="EGArmyMoodOpen/menu/start_start.png" alphatest="on" />-->
 		<eLabel text="EGAMI Welcome...Start" position="80,30" size="800,44" font="RegularAA;40" halign="left" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 		<widget name="wizard" pixmap="EGArmyMoodOpen/wizard.png" position="80,120" zPosition="10" size="140,188" transparent="1" alphatest="on"/>
-		<widget name="text" position="320,150" size="340,330" font="Regular;22" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
+		<widget name="text" position="80,150" size="690,240" font="Regular;22" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 		<ePixmap pixmap="EGArmyMoodOpen/buttons/button_red.png" position="320,114" size="15,16" alphatest="on" />
 		<widget name="languagetext" position="350,108" size="180,30" font="Regular;20" foregroundColor="grey" backgroundColor="transpBlack" transparent="1"/>
 		<widget source="list" render="Listbox"	position="80,400" size="690,200" scrollbarMode="showOnDemand"  selectionPixmap="EGArmyMoodOpen/icons/listselection710x30-fs8.png" transparent="1" >
@@ -2181,7 +2181,7 @@ self["list"].instance.setItemHeight(25)
 		<ePixmap position="920,460" zPosition="-1" size="220,180" pixmap="EGArmyMoodOpen/menu/start_net.png" alphatest="on" />
 		<eLabel text="EGAMI Welcome...Net" position="80,30" size="800,44" font="RegularAA;40" halign="left" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 		<widget name="wizard" pixmap="EGArmyMoodOpen/wizard.png" position="80,120" zPosition="10" size="140,188" transparent="1" alphatest="on"/>
-		<widget name="text" position="320,150" size="380,350" font="Regular;22" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
+		<widget name="text" position="80,150" size="690,240" font="Regular;22" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 		<ePixmap pixmap="EGArmyMoodOpen/buttons/button_red.png" position="320,114" size="15,16" alphatest="on" />
 		<widget name="languagetext" position="350,108" size="180,30" font="Regular;20" foregroundColor="grey" backgroundColor="transpBlack" transparent="1"/>
 		<widget source="list" render="Listbox"	position="80,400" size="690,200" scrollbarMode="showOnDemand"  selectionPixmap="EGArmyMoodOpen/icons/listselection710x30-fs8.png" transparent="1" >
@@ -2196,7 +2196,7 @@ self["list"].instance.setItemHeight(25)
 		<ePixmap position="920,460" zPosition="-1" size="220,180" pixmap="EGArmyMoodOpen/menu/start_lang.png" alphatest="on" />
 		<eLabel text="EGAMI Welcome..." position="80,30" size="800,44" font="RegularAA;40" halign="left" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 		<widget name="wizard" pixmap="EGArmyMoodOpen/wizard.png" position="80,120" zPosition="10" size="140,188" transparent="1" alphatest="on"/>
-		<widget name="text" position="320,150" size="340,330" font="Regular;22" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
+		<widget name="text" position="80,150" size="690,240" font="Regular;22" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 		<ePixmap position="764,355" zPosition="2" size="26,205" pixmap="EGArmyMoodOpen/scroll/scroll.png" alphatest="blend" transparent="1" />
 		<widget source="languages" render="Listbox" position="80,360" size="710,200" scrollbarMode="showOnDemand" selectionPixmap="EGArmyMoodOpen/icons/listselection710x50-fs8.png" transparent="1" >
 			<convert type="TemplatedMultiContent">
@@ -2229,7 +2229,7 @@ self["list"].instance.setItemHeight(25)
 	<screen name="DefaultWizard" position="340,134" size="600,500" title="Welcome..." >
 		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="600,500" alphatest="on" />	
 		<widget name="wizard" pixmap="EGArmyMoodOpen/wizard.png" position="60,20" zPosition="10" size="140,188" transparent="1" alphatest="on"/>
-		<widget name="text" position="230,50" size="340,270" font="Regular;23" transparent="1" />
+		<widget name="text" position="80,150" size="690,240" font="Regular;22" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 		<ePixmap pixmap="EGArmyMoodOpen/buttons/button_red.png" position="80,223" size="15,16" alphatest="on" />
 		<widget name="languagetext" position="110,220" size="120,30" font="Regular;20" />
 		<widget source="list" render="Listbox"	position="20,300" size="560,200" scrollbarMode="showOnDemand" >
@@ -2248,7 +2248,7 @@ self["list"].instance.setItemHeight(25)
 		<ePixmap position="920,460" zPosition="-1" size="220,180" pixmap="EGArmyMoodOpen/menu/start.png" alphatest="on" />
 		<eLabel text="Select Video Output..." position="80,30" size="800,44" font="RegularAA;40" halign="left" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 		<widget name="wizard" pixmap="EGArmyMoodOpen/wizard.png" position="80,120" zPosition="10" size="140,188" transparent="1" alphatest="on"/>
-		<widget name="text" position="320,150" size="340,330" font="Regular;22" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
+		<widget name="text" position="80,150" size="690,240" font="Regular;22" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 		<ePixmap pixmap="EGArmyMoodOpen/buttons/button_red.png" position="320,114" size="15,16" alphatest="on" />
 		<widget name="languagetext" position="350,108" size="180,30" font="Regular;20" foregroundColor="grey" backgroundColor="transpBlack" transparent="1"/>
 		<widget source="list" render="Listbox"	position="80,400" size="690,200" scrollbarMode="showOnDemand"  selectionPixmap="EGArmyMoodOpen/icons/listselection710x30-fs8.png" transparent="1" >
@@ -2257,7 +2257,7 @@ self["list"].instance.setItemHeight(25)
 		<widget name="config"  position="80,400" size="690,200" scrollbarMode="showOnDemand"   transparent="1" />   
 	</screen> 
 	<screen name="DreamPackageWizard" position="280,70" size="1280,720" title="Welcome..." flags="wfNoBorder" >
-		<widget name="text" position="153,50" size="340,270" font="Regular;23" />
+		<widget name="text" position="80,150" size="690,240" font="Regular;22" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 		<widget source="list" render="Listbox" position="50,300" size="440,200" scrollbarMode="showOnDemand" >
 			<convert type="StringList" />
 		</widget>
@@ -2331,7 +2331,7 @@ self["list"].instance.setItemHeight(25)
 	<screen name="DefaultSatLists" position="center,center" size="600,460" title="Default services lists" >
 		<ePixmap pixmap="EGArmyMoodOpen/frame_box-fs8.png" zPosition="-1" position="0,0" size="600,460" alphatest="on" />	
 		<widget name="wizard" pixmap="EGArmyMoodOpen/wizard.png" position="60,20" zPosition="10" size="140,188" transparent="1" alphatest="on"/>
-		<widget name="text" position="260,50" size="340,270" font="Regular;23" transparent="1" />
+		<widget name="text" position="80,150" size="690,240" font="Regular;22" foregroundColor="#58bcff" backgroundColor="transpBlack" transparent="1"/>
 		<ePixmap pixmap="EGArmyMoodOpen/buttons/button_red.png" position="80,223" size="15,16" alphatest="on" />
 		<widget name="languagetext" position="110,220" size="180,30" font="Regular;20" />
 		<widget source="list" render="Listbox"	position="20,300" size="560,200" scrollbarMode="showOnDemand" >
@@ -4397,5 +4397,9 @@ self["list"].instance.setItemHeight(25)
 		<panel name="FullscreenGreen1Panel" />
 		<panel name="FullscreenYellow1Panel" />
 		<panel name="FullscreenBlue1Panel" />
+	</screen>
+	<screen name="Screensaver" position="fill" flags="wfNoBorder">
+		<eLabel position="fill" backgroundColor="#54111112" zPosition="0"/>
+		<widget name="picture" pixmap="picon_default.png" position="0,0" size="100,60" alphatest="on" zPosition="1"/>
 	</screen>	
 </skin>
