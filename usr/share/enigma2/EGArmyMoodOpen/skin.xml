@@ -1095,7 +1095,17 @@ self.autoResize()
 		<widget name="posFrom" position="57,160" size="70,20" zPosition="1" font="Regular;20" halign="left" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
 		<widget name="Goto" position="0,183" size="50,17" zPosition="1" font="Regular;17" halign="right" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
 		<widget name="posGoto" position="57,180" size="70,20" zPosition="1" font="Regular;20" halign="left" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
-	</screen>	
+	</screen>
+	<screen name="Seekbar" position="center,40" size="560,55" backgroundColor="background" >
+		<widget name="cursor" position="0,15" size="8,18" pixmap="position_arrow.png" alphatest="on" />
+		<widget source="session.CurrentService" render="PositionGauge" position="145,30" size="270,10" zPosition="2" pointer="position_pointer.png:540,0" transparent="1" foregroundColor="#20224f">
+			<convert type="ServicePosition">Gauge</convert>
+		</widget>
+		<widget name="time" position="50,25" size="100,20" font="Regular;20" halign="left" backgroundColor="#4e5a74" transparent="1" />
+		<widget source="session.CurrentService" render="Label" position="420,25" size="90,24" font="Regular;20" halign="right" backgroundColor="#4e5a74" transparent="1">
+			<convert type="ServicePosition">Length</convert>
+		</widget>
+	</screen>
 	<screen name="UnhandledKey" flags="wfNoBorder" position="1162,20" size="34,45" zPosition="100" backgroundColor="transparent">
 		<widget name="UnhandledKeyPixmap" pixmap="EGArmyMoodOpen/screens/unhandled-key.png" position="0,0" size="34,45" alphatest="off" />
 	</screen>
@@ -3543,7 +3553,7 @@ self["list"].instance.setItemHeight(25)
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
 		<widget name="list" position="80,100" size="705,514" scrollbarMode="showOnDemand" transparent="1" />
-		<eLabel text="" position="80,522" size="503,2" font="Regular;14" backgroundColor="white" />
+		<eLabel text="" position="80,22" size="503,2" font="Regular;14" backgroundColor="white" />
 		<widget name="uphops" position="80,540" size="240,25" font="Regular;20" />
 		<widget name="cards" position="340,540" size="220,25" halign="right" font="Regular;20" />
 		<widget name="providers" position="80,570" size="240,25" font="Regular;20" />
@@ -3553,9 +3563,9 @@ self["list"].instance.setItemHeight(25)
 	<screen name="CCcamInfoSubMenu" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
-		<widget name="list" position="80,100" size="705,414" scrollbarMode="showOnDemand" transparent="1" />
-		<eLabel text="" position="80,387" size="503,2" font="Regular;14" backgroundColor="white" />
-		<widget name="info" position="80,395" size="503,165" font="Regular;16" transparent="0" />
+		<widget name="list" position="80,100" size="705,420" scrollbarMode="showOnDemand" transparent="1" />
+		<eLabel text="" position="80,537" size="503,2" font="Regular;14" backgroundColor="white" />
+		<widget name="info" position="80,545" size="503,165" font="Regular;16" transparent="0" />
 	</screen>
 	<screen name="CCcamInfoServerMenu" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="FullscreenTopPanel2" />
