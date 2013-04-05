@@ -3552,27 +3552,27 @@ self["list"].instance.setItemHeight(25)
 	<screen name="CCcamShareViewMenu" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
-		<widget name="list" position="80,100" size="705,514" scrollbarMode="showOnDemand" transparent="1" />
-		<eLabel text="" position="80,22" size="503,2" font="Regular;14" backgroundColor="white" />
-		<widget name="uphops" position="80,540" size="240,25" font="Regular;20" />
-		<widget name="cards" position="340,540" size="220,25" halign="right" font="Regular;20" />
-		<widget name="providers" position="80,570" size="240,25" font="Regular;20" />
-		<widget name="reshare" position="340,570" size="220,25" halign="right" font="Regular;20" />
-		<widget name="title" position="80,600" size="480,20" halign="center" font="Regular;20" />
+		<widget name="list" position="80,100" size="705,383" scrollbarMode="showOnDemand" transparent="1" />
+		<eLabel text="" position="80,500" size="503,2" font="Regular;14" backgroundColor="white" />
+		<widget name="uphops" position="80,500" size="240,25" font="Regular;20" />
+		<widget name="cards" position="340,500" size="220,25" halign="right" font="Regular;20" />
+		<widget name="providers" position="80,533" size="240,25" font="Regular;20" />
+		<widget name="reshare" position="340,533" size="220,25" halign="right" font="Regular;20" />
+		<widget name="title" position="80,563" size="480,20" halign="center" font="Regular;20" />
 	</screen>
 	<screen name="CCcamInfoSubMenu" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
-		<widget name="list" position="80,100" size="705,420" scrollbarMode="showOnDemand" transparent="1" />
-		<eLabel text="" position="80,537" size="503,2" font="Regular;14" backgroundColor="white" />
-		<widget name="info" position="80,545" size="503,165" font="Regular;16" transparent="0" />
+		<widget name="list" position="80,100" size="705,380" scrollbarMode="showOnDemand" transparent="1" />
+		<eLabel text="" position="80,500" size="503,2" font="Regular;14" backgroundColor="white" />
+		<widget name="info" position="80,508" size="503,167" font="Regular;16" transparent="0" />
 	</screen>
 	<screen name="CCcamInfoServerMenu" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
-		<widget name="list" position="80,100" size="705,414" scrollbarMode="showOnDemand" transparent="1" />
-		<eLabel text="" position="80,387" size="503,2" font="Regular;14" backgroundColor="white" />
-		<widget name="info" position="80,395" size="503,165" font="Regular;16" transparent="0" />
+		<widget name="list" position="80,100" size="705,380" scrollbarMode="showOnDemand" transparent="1" />
+		<eLabel text="" position="80,500" size="503,2" font="Regular;14" backgroundColor="white" />
+		<widget name="info" position="80,508" size="503,167" font="Regular;16" transparent="0" />
 	</screen>
 	<screen name="CCcamInfoConfigMenu" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="FullscreenTopPanel2" />
