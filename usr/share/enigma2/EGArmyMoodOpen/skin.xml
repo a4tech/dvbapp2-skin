@@ -222,6 +222,7 @@
 				}
 			</convert>
 		</widget>
+		<ePixmap position="960,470" zPosition="-1" size="250,160" pixmap="EGArmyMoodOpen/menu/setup.png" alphatest="on" /> 
 	</screen> 
 	<!-- 3 Main menu infobar -->
 	<screen name="menu_mainmenu" position="0,0" size="1280,720" title="Main menu" backgroundColor="transparent" flags="wfNoBorder">
@@ -267,40 +268,11 @@
 			<convert type="MenuEntryCompare">dvd_player</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="menu" render="Pixmap" pixmap="EGArmyMoodOpen/menu/egami300.png" position="960,470"  size="295,300" alphatest="blend" transparent="1" >
-		    <convert type="MenuEntryCompare">egami_screen</convert>
-		    <convert type="ConditionalShowHide" />
-		</widget>
 		<widget source="menu" render="Pixmap" pixmap="EGArmyMoodOpen/menu/eventview.png" position="960,470"  size="295,300" alphatest="blend" transparent="1" >
 		    <convert type="MenuEntryCompare">picture_player</convert>
 		    <convert type="ConditionalShowHide" />
 		</widget>
 	</screen> 
-	<!-- 4 Main menu EGAMI -->
-	<screen name="menu_egami" position="0,0" size="1280,720" title="Main menu"  backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="FullscreenTopPanel1" />
-		<panel name="FullscreenPIGPanel" />
-		<widget source="menu" render="Listbox" position="80,90" size="710,440" scrollbarMode="showNever" selectionPixmap="EGArmyMoodOpen/icons/listselection450x38-fs8.png"  backgroundPixmap="EGArmyMoodOpen/icons/butselection.png" transparent="1">
-			<convert type="TemplatedMultiContent">
-			{"template": [ MultiContentEntryText(pos = (60, 2), size = (450, 38), flags = RT_HALIGN_LEFT, text = 0) ],
-			"fonts": [gFont("Regular", 26)],
-			"itemHeight": 38 
-			}
-			</convert>
-		</widget>
-		<widget source="menu" render="Pixmap" pixmap="EGArmyMoodOpen/menu/BlackHoleEpgBackup.png" position="960,470" size="260,160" alphatest="blend" transparent="1" >
-			<convert type="MenuEntryCompare">file_manager</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="menu" render="Pixmap" pixmap="EGArmyMoodOpen/menu/BlackHolePersonalBackup.png" position="960,470"  size="250,160" alphatest="blend" transparent="1" >
-			<convert type="MenuEntryCompare">backup_panel</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="menu" render="Pixmap" pixmap="EGArmyMoodOpen/menu/BlackHoleFullBackup.png" position="960,470"  size="250,160" alphatest="blend" transparent="1" >
-			<convert type="MenuEntryCompare">full_backup_panel</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-	</screen>
 	<!-- 5 Menu Information -->
 	<screen name="menu_information" position="0,0" size="1280,720" title="Main menu"  backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="FullscreenTopPanel1" />
