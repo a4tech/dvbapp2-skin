@@ -2087,37 +2087,23 @@ self["list"].instance.setItemHeight(25)
 		<ePixmap position="0,0" zPosition="-1" size="1280,720" pixmap="EGArmyMoodOpen/frame_base-fs8.png"  /> 
 		<widget name="timerlist" position="center,30" size="1120,350" zPosition="2" scrollbarMode="showOnDemand" transparent="1" />
 	</screen>
-	<screen name="PTSTimeshiftState" position="center,40"  backgroundColor="background" size="420,70" >
-		<widget name="statusicon" position="12,5" size="20,20" pixmaps="EGArmyMoodOpen/icons/play.png,EGArmyMoodOpen/icons/pause.png,EGArmyMoodOpen/icons/stop.png,EGArmyMoodOpen/icons/forward.png,EGArmyMoodOpen/icons/backward.png,EGArmyMoodOpen/icons/slow.png" zPosition="5" alphatest="on" />
-		<widget name="speed" position="35,7" size="80,15" font="Regular;17" halign="left" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="5" />
+	<screen name="TimeshiftState" position="center,40"  backgroundColor="background" size="420,70" >
 		<widget source="session.CurrentService" render="Label" position="95,5" size="200,27" font="Regular;20" halign="left" foregroundColor="white"  backgroundColor="background">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
 		<widget source="session.CurrentService" render="Label" position="280,5" size="120,27" font="Regular;20" halign="right" foregroundColor="white" backgroundColor="background">
 			<convert type="ServicePosition">Length</convert>
 		</widget>
-		<widget name="PTSSeekPointer" position="0,30" zPosition="3" size="19,20" pixmap="/usr/share/enigma2/EGArmyMoodOpen/timeline-now.png" alphatest="on" />
-		<ePixmap position="15,33" size="390,15" zPosition="1" pixmap="EGArmyMoodOpen/slider_back.png" alphatest="on"/>
-			 <widget source="session.CurrentService" render="Progress" position="15,33" size="390,15" zPosition="2" pixmap="EGArmyMoodOpen/slider.png" transparent="1">
+		<widget name="PTSSeekBack" position="15,33" size="390,15" zPosition="2" pixmap="EGArmyMoodOpen/slider_back.png" alphatest="on"/>		
+		<widget name="PTSSeekPointer" position="0,30" zPosition="4" size="19,20" pixmap="EGArmyMoodOpen/epg/timeline-now.png" alphatest="on" />
+		<widget source="session.CurrentService" render="Progress" position="15,33" size="390,15" zPosition="3" pixmap="EGArmyMoodOpen/slider.png" transparent="1">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
+		<widget name="statusicon" position="12,5" size="20,20" pixmaps="EGArmyMoodOpen/icons/play.png,EGArmyMoodOpen/icons/pause.png,EGArmyMoodOpen/icons/stop.png,EGArmyMoodOpen/icons/forward.png,EGArmyMoodOpen/icons/backward.png,EGArmyMoodOpen/icons/slow.png" zPosition="5" alphatest="on" />
+		<widget name="speed" position="35,7" size="80,15" font="Regular;17" halign="left" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="5" />		
 		<widget name="eventname" position="60,49" zPosition="4" size="320,20" font="Regular;18" halign="center" backgroundColor="background"/>
 	</screen>
-	<screen name="TimeshiftState" position="90,50"  backgroundColor="background" size="216,74" >
-		<widget name="statusicon" position="20,15" size="20,20" zPosition="3" alphatest="on" pixmaps="EGArmyMoodOpen/icons/play.png,EGArmyMoodOpen/icons/pause.png,EGArmyMoodOpen/icons/stop.png,EGArmyMoodOpen/icons/forward.png,EGArmyMoodOpen/icons/backward.png,EGArmyMoodOpen/icons/slow.png" />
-		<widget name="speed" position="45,18" size="80,18" font="Regular;17" halign="left" foregroundColor="foreground" backgroundColor="background" transparent="1" zPosition="4" />
-		<widget name="state" position="0,0" size="0,0" />
-		<widget source="session.CurrentService" render="Label" position="88,17" size="50,20" font="Regular;17" foregroundColor="foreground" backgroundColor="background" halign="center" transparent="1" zPosition="2" valign="top">
-			<convert type="ServicePosition">Remaining</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="140,17" size="50,20" font="Regular;17" foregroundColor="foreground" backgroundColor="background" halign="right" transparent="1" zPosition="2" valign="top">
-			<convert type="ServicePosition">Length</convert>
-		</widget>
-		<ePixmap position="23,35" size="170,15" zPosition="2" pixmap="EGArmyMoodOpen/slider_back.png" alphatest="on" />
-		<widget source="session.CurrentService" render="Progress" position="23,35" size="170,15" zPosition="3" pixmap="EGArmyMoodOpen/slider.png" transparent="1">
-			<convert type="ServicePosition">Position</convert>
-		</widget>
-	</screen>
+
 	<screen name="Volume" position="60,130" zPosition="1" size="28,360" title="Volume"  flags="wfNoBorder" backgroundColor="transparent" >
 		<ePixmap pixmap="EGArmyMoodOpen/volume.png" position="0,0" size="28,360"  transparent="1" />
 		<widget name="Volume" pixmap="EGArmyMoodOpen/vol.png" position="5,18" zPosition="1" orientation="orBottomToTop" size="18,309" transparent="1" />
