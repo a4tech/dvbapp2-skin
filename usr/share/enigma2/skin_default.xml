@@ -4213,7 +4213,7 @@ self["list"].instance.setItemHeight(25)
 		<widget name="list" position="80,175" zPosition="1" size="670,500" scrollbarMode="showOnDemand" transparent="1"/>
 		<panel name="FullscreenGreen1Panel" />
 		<panel name="FullscreenYellow1Panel" />
-		<panel name="FullscreenBlue1Panel" />
+		<panel name="FullscreenRed1Panel" />
 	</screen>  
 	<screen name="EGAMIBackupPanel_Step2" position="0,0" size="1280,720" title="EGAMI Image Backup Panel - STEP 2" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="FullscreenTopPanel2" />
@@ -4223,7 +4223,7 @@ self["list"].instance.setItemHeight(25)
 		<widget name="label2" position="10,120" size="840,290" zPosition="1" halign="center" font="Regular;20" backgroundColor="#9f1313" transparent="1"/> 
 		<widget name="config" position="80,175" zPosition="1" size="680,500" scrollbarMode="showOnDemand" transparent="1"/>
 		<panel name="FullscreenGreen1Panel" />
-		<panel name="FullscreenYellow1Panel" />
+		<panel name="FullscreenRed1Panel" />
 	</screen> 
 	<screen name="EGAMIBackupPanel_Step3" position="center,center" size="484,250" title="EGAMI Backup in progress..." flags="wfNoBorder">
 	      <widget name="status" position="0,0" size="484,250" zPosition="-1" pixmaps="skin_default/egami_icons/backup_1.png,skin_default/egami_icons/backup_2.png,skin_default/egami_icons/backup_3.png,skin_default/egami_icons/backup_4.png,skin_default/egami_icons/backup_5.png,skin_default/egami_icons/backup_6.png"  />
@@ -4235,7 +4235,7 @@ self["list"].instance.setItemHeight(25)
 		<ePixmap position="960,470" zPosition="-1" size="250,160" pixmap="skin_default/menu/icons_gp.png" alphatest="on" />
 		<widget name="config" position="80,90" zPosition="1" size="680,500" scrollbarMode="showOnDemand" transparent="1"/>
 		<panel name="FullscreenGreen1Panel" />
-		<panel name="FullscreenBlue1Panel" />
+		<panel name="FullscreenRed1Panel" />
 	</screen>
 	<screen name="EGAMIRestorePanel_Step2" position="center,center" size="484,250" title="EGAMI Restore in progress..." flags="wfNoBorder">
 		    <widget name="status" position="0,0" size="484,250" zPosition="-1" pixmaps="skin_default/egami_icons/restore_1.png,skin_default/egami_icons/restore_2.png,skin_default/egami_icons/restore_3.png,skin_default/egami_icons/restore_4.png,skin_default/egami_icons/restore_5.png,skin_default/egami_icons/restore_6.png"  />
