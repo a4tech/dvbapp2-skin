@@ -713,7 +713,7 @@
 			<convert type="ServicePosition">Position</convert>
 		</widget>
 		<ePixmap position="360,129" size="600,22" pixmap="skin_default/mpslider.png" zPosition="3" alphatest="blend" />
-		<widget source="session.CurrentService" render="PositionGauge" position="385,133" size="552,14" zPosition="2" pointer="skin_default/pointer.png:13,3" >
+		<widget source="session.CurrentService" render="PositionGauge" position="385,133" size="552,14" zPosition="2" pointer="pointer.png:13,3" >
 			<convert type="ServicePosition">Gauge</convert>
 		</widget>
 		<widget source="session.CurrentService" render="Label" position="980,126" size="100,26" font="Regular;22" halign="left" foregroundColor="white" backgroundColor="transpBlack" transparent="1" >
@@ -814,7 +814,7 @@
 		<widget name="coverArt" pixmap="skin_default/no_coverArt.png" position="110,550"  size="100,100" zPosition="1" alphatest="blend"  />
 		<widget name="repeat" position="1120,655" size="50,30" pixmaps="skin_default/icons/repeat_off.png,skin_default/icons/repeat_on.png" transparent="1" alphatest="blend"/>
 		<ePixmap position="340,662" size="600,22" pixmap="skin_default/mpslider.png" zPosition="-1" backgroundColor="black" alphatest="blend"/>
-		<widget name="PositionGauge" position="365,666" size="552,14" zPosition="12" pointer="skin_default/pointer.png:13,3" transparent="0"/>
+		<widget name="PositionGauge" position="365,666" size="552,14" zPosition="12" pointer="pointer.png:13,3" transparent="0"/>
 		<widget source="session.CurrentService" render="Label" position="200,660" size="120,25" font="Regular;22" halign="right" valign="center" backgroundColor="black" transparent="1" >
 			<convert type="ServicePosition">Position</convert>
 		</widget>
@@ -2711,7 +2711,7 @@ self["list"].instance.setItemHeight(25)
 			<convert type="ServicePosition">Position,ShowHours</convert>
 		</widget>
 		<ePixmap position="360,133" size="600,22" pixmap="skin_default/mpslider.png" zPosition="3" alphatest="blend" />
-		<widget source="session.CurrentService" render="PositionGauge" position="385,137" size="552,14" zPosition="2" pointer="skin_default/pointer.png:13,3" >
+		<widget source="session.CurrentService" render="PositionGauge" position="385,137" size="552,14" zPosition="2" pointer="pointer.png:13,3" >
 			<convert type="ServicePosition">Gauge</convert>
 		</widget>
 		<widget name="chapterLabel" position="380,170" size="560,25" font="Regular;22" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" />
@@ -3239,7 +3239,7 @@ self["list"].instance.setItemHeight(25)
 			<convert type="ServicePosition">Position</convert>
 		</widget>
 		<ePixmap position="360,129" size="600,22" pixmap="skin_default/mpslider.png" zPosition="3" alphatest="blend" />
-		<widget source="session.CurrentService" render="PositionGauge" position="385,133" size="552,14" zPosition="2" pointer="skin_default/pointer.png:13,3" >
+		<widget source="session.CurrentService" render="PositionGauge" position="385,133" size="552,14" zPosition="2" pointer="pointer.png:13,3" >
 			<convert type="ServicePosition">Gauge</convert>
 		</widget>
 		<widget source="session.CurrentService" render="Label" position="980,126" size="100,26" font="Regular;22" halign="left" foregroundColor="white" backgroundColor="transpBlack" transparent="1" >
