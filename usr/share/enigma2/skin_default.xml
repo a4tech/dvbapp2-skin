@@ -1903,6 +1903,10 @@ self["list"].instance.setItemHeight(25)
 			<convert type="ServiceName">Name</convert>
 		</widget>
 	</screen>
+	<screen name="QuickSubtitlesConfigMenu" position="50,50" size="480,255" title="Subtitle settings" backgroundColor="#7f000000" flags="wfNoBorder">
+		<widget name="config" position="5,5" size="470,225" font="Regular;18" zPosition="1" transparent="1" valign="center" />
+		<widget name="videofps" position="5,230" size="470,20" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;16" valign="center" halign="left" foregroundColor="blue"/>
+	</screen>
 	<screen name="Subtitles" position="center,center" size="710,460" title="Subtitle selection">
 		<widget name="config" position="20,20" zPosition="1" size="670,400" scrollbarMode="showOnDemand" />
 	</screen>	
