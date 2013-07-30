@@ -398,8 +398,10 @@
 			<convert type="ServiceInfo">HasHBBTV</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="session.CurrentService" render="EGPicon" position="60,90" size="130,80" zPosition="10" transparent="1" alphatest="on"/>
-
+		<!-- Picon Position -->
+		<widget source="session.CurrentService" render="Picon" position="60,90" size="130,80" zPosition="10" transparent="1" alphatest="on" >
+			<convert type="ServiceName">Reference</convert>
+		</widget>
 		<widget source="session.Event_Now" render="Label" position="220,88" size="90,30" zPosition="2" halign="left"  font="Regular;26" foregroundColor="white" backgroundColor="background" transparent="1" >
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
@@ -508,7 +510,9 @@
 		<widget source="session.CurrentService" render="Label" position="1205,656" size="97,30" transparent="1" zPosition="4" foregroundColor="foreground" font="Regular;20" valign="top" halign="left">
 			<convert type="ServiceInfo">Framerate</convert>
 		</widget>
-		<widget source="session.CurrentService" render="EGPicon" position="60,571" size="130,80" zPosition="10" transparent="1" alphatest="on"/>
+		<widget source="session.CurrentService" render="Picon" position="60,571" size="130,80" zPosition="10" transparent="1" alphatest="on" >
+			<convert type="ServiceName">Reference</convert>
+		</widget>		
 		<widget source="session.Event_Now" render="Label" position="220,578" size="90,30" zPosition="2" halign="left"  font="Regular;26" foregroundColor="white" transparent="1" backgroundColor="background">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
@@ -3638,7 +3642,7 @@ self["list"].instance.setItemHeight(25)
 	<screen name="AutoTimerOverview" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
-		<widget name="entries" position="80,100" size="705,514" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="entries" position="80,100" size="705,430" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap position="1126,20" zPosition="4" size="74,36" pixmap="skin_default/buttons/key_menu1.png" transparent="1" alphatest="on" /> 		
 		<panel name="FullscreenGreen2Panel" />
 		<panel name="FullscreenYellow2Panel" />
@@ -3647,7 +3651,7 @@ self["list"].instance.setItemHeight(25)
 	<screen name="AutoTimerEditor" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
-		<widget name="config" position="80,100" size="705,514" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="config" position="80,100" size="705,430" scrollbarMode="showOnDemand" transparent="1" />
 		<widget source="help" render="Label" position="80,560" size="682,50" font="Regular; 22" foregroundColor="white" valign="top" backgroundColor="transpBlack" transparent="1" />
 		<panel name="FullscreenRed2Panel" />
 		<panel name="FullscreenGreen2Panel" />
@@ -3657,7 +3661,7 @@ self["list"].instance.setItemHeight(25)
 	<screen name="AutoTimerSettings" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
-		<widget name="config" position="80,100" size="705,514" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="config" position="80,100" size="705,430" scrollbarMode="showOnDemand" transparent="1" />
 		<widget source="help" render="Label" position="80,560" size="682,50" font="Regular; 22" foregroundColor="white" valign="top" backgroundColor="transpBlack" transparent="1" />
 		<panel name="FullscreenRed2Panel" />
 		<panel name="FullscreenGreen2Panel" />
