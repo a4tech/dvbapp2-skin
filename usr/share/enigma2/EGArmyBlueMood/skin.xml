@@ -4156,18 +4156,7 @@ self["list"].instance.setItemHeight(25)
 		<ePixmap position="960,470" zPosition="-1" size="250,160" pixmap="EGArmyBlueMood/menu/add_manager.png" alphatest="on" />
 		<panel name="FullscreenTopPanel2" />
 		<panel name="FullscreenPIGPanel" />
-		<widget source="list" render="Listbox" position="80,105" zPosition="1" size="710,500" scrollbarMode="showOnDemand" selectionPixmap="EGArmyBlueMood/icons/listselection710x50-fs8.png"  transparent="1">
-			  <convert type="TemplatedMultiContent">
-			      {"template": [
-			      MultiContentEntryText(pos = (125, 0), size = (650, 24), font=0, text = 0),
-			      MultiContentEntryText(pos = (125, 24), size = (650, 24), font=1, text = 3),
-			      MultiContentEntryPixmapAlphaTest(pos = (6, 5), size = (100, 40), png = 1),
-			      ],
-			      "fonts": [gFont("Regular", 24),gFont("Regular", 20)],
-			      "itemHeight": 50
-			      }
-			  </convert>
-		</widget>
+		<widget name="list" position="80,105" zPosition="1" size="710,500" scrollbarMode="showOnDemand" selectionPixmap="EGArmyBlueMood/icons/listselection710x50-fs8.png"  transparent="1"/>
 	</screen>
 	<screen name="EGDeviceManager_Setup" position="0,0" size="1280,720" title="EGAMI Mountpoints Setup">
 		<panel name="FullscreenTopPanel2" />
